@@ -1,0 +1,312 @@
+2024-03-26 15:13:06,731 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-03-26 15:13:14,426 INFO servisWO.login - LOGIN: Admin Admin
+2024-03-26 15:13:14,435 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-03-26 15:13:14,454 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:13:14,468 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:38:10,060 INFO servisWO.Global_asax - Web Order STOPPED
+2024-03-26 15:38:21,389 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-03-26 15:38:40,411 INFO servisWO.login - LOGIN: Admin Admin
+2024-03-26 15:38:40,421 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-03-26 15:38:40,440 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:38:40,456 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:39:00,982 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:39:00,999 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-26 15:39:00,999 INFO servisWO.customerList - Admin Admin selected customer: C25210(CT024838)
+2024-03-26 15:39:01,165 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 12
+2024-03-26 15:39:11,586 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:39:11,632 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-26 15:39:11,633 INFO servisWO.orderNew - Admin Admin created cart 353098 for the customer C25210
+2024-03-26 15:39:11,688 INFO servisWO.orderNew - Admin Admin created order 334187 for the customer C25210
+2024-03-26 15:39:32,623 INFO servisWO.orderDetails - Admin Admin processed order 334187 with action: invia
+2024-03-26 15:39:42,746 INFO servisWO.orderDetails - Order PDF was created in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\hardcoded\S-ORD334187.pdf
+2024-03-26 15:39:42,766 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:39:42,766 INFO servisWO.orderDetails - Close current work and clear cart session
+2024-03-26 15:39:47,878 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:39:51,455 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:39:51,512 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:39:51,689 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-26 15:39:51,690 INFO servisWO.magOrderToPickList - Admin Admin order 334187 picked
+2024-03-26 15:39:52,062 INFO servisWO.magPicking - Admin Admin order 334187 line 1 READY: SERALCABBI010OE Expected=10 Picked=0 FlagLoaded=0
+2024-03-26 15:40:36,156 INFO servisWO.magPicking - Admin Admin order 334187 line 1 UPDATED: SERALCABBI010OE Expected=10 Picked=10 FlagLoaded=1
+2024-03-26 15:40:36,457 INFO servisWO.magPicking - Admin Admin order 334187 line 2 READY: SERIACCIAI200A01 Expected=3 Picked=0 FlagLoaded=0
+2024-03-26 15:40:44,361 INFO servisWO.magPicking - Admin Admin order 334187 line 2 UPDATED: SERIACCIAI200A01 Expected=3 Picked=3 FlagLoaded=1
+2024-03-26 15:41:22,081 INFO servisWO.magEndPicking - Admin Admin sent to control and invoice order 334187
+2024-03-26 15:41:22,206 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:41:26,402 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:41:33,757 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:41:33,785 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:41:33,956 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-26 15:41:33,974 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:41:34,002 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:41:34,176 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-26 15:41:34,177 INFO servisWO.magOrderToPickList - Admin Admin order 334187 picked for shipping
+2024-03-26 15:41:41,434 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 13
+2024-03-26 15:41:45,162 INFO servisWO.magEndPicking - Admin Admin shipped order 334187
+2024-03-26 15:41:46,268 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:48:55,337 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:48:55,514 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-26 15:48:55,596 INFO servisWO.orderList - Admin Admin loaded the order 334187
+2024-03-26 15:49:13,756 INFO servisWO.orderDetails - Admin Admin processed order 334187 with action: invia
+2024-03-26 15:49:17,051 INFO servisWO.orderDetails - Order PDF was created in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\hardcoded\S-ORD334187.pdf
+2024-03-26 15:49:17,062 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:49:17,063 INFO servisWO.orderDetails - Close current work and clear cart session
+2024-03-26 15:50:44,198 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:50:52,011 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:50:52,067 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:50:52,255 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-26 15:50:52,256 INFO servisWO.magOrderToPickList - Admin Admin order 334187 picked
+2024-03-26 15:50:52,769 INFO servisWO.magPicking - Admin Admin order 334187 line 1 READY: SERALCABBI010OE Expected=4 Picked=10 FlagLoaded=1
+2024-03-26 15:51:17,712 INFO servisWO.magPicking - Admin Admin order 334187 line 1 UPDATED: SERALCABBI010OE Expected=4 Picked=4 FlagLoaded=1
+2024-03-26 15:51:18,021 INFO servisWO.magPicking - Admin Admin order 334187 line 2 READY: SERIACCIAI200A01 Expected=3 Picked=3 FlagLoaded=1
+2024-03-26 15:51:19,415 INFO servisWO.magPicking - Admin Admin order 334187 line 2 UPDATED: SERIACCIAI200A01 Expected=3 Picked=3 FlagLoaded=1
+2024-03-26 15:51:32,255 INFO servisWO.magEndPicking - Admin Admin sent to control and invoice order 334187
+2024-03-26 15:51:32,363 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:51:39,401 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:51:45,491 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:51:45,520 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:51:45,693 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-26 15:51:45,711 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:51:45,739 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:51:45,919 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-26 15:51:45,920 INFO servisWO.magOrderToPickList - Admin Admin order 334187 picked for shipping
+2024-03-26 15:53:34,749 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 13
+2024-03-26 15:53:38,489 INFO servisWO.magEndPicking - Admin Admin shipped order 334187
+2024-03-26 15:53:39,700 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-26 15:56:45,635 INFO servisWO.Global_asax - Web Order STOPPED
+2024-03-27 07:21:01,530 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-03-27 07:21:10,869 INFO servisWO.login - LOGIN: Admin Admin
+2024-03-27 07:21:10,878 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-03-27 07:21:10,901 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:21:10,917 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:22:00,929 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:22:00,939 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-27 07:22:00,940 INFO servisWO.customerList - Admin Admin selected customer: C25210(CT024838)
+2024-03-27 07:22:01,104 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 13
+2024-03-27 07:22:15,053 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:22:15,100 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-27 07:22:15,100 INFO servisWO.orderNew - Admin Admin created cart 353099 for the customer C25210
+2024-03-27 07:22:15,155 INFO servisWO.orderNew - Admin Admin created order 334188 for the customer C25210
+2024-03-27 07:23:07,474 INFO servisWO.orderDetails - Admin Admin processed order 334188 with action: invia
+2024-03-27 07:23:13,129 INFO servisWO.orderDetails - Order PDF was created in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\hardcoded\S-ORD334188.pdf
+2024-03-27 07:23:13,141 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:23:13,142 INFO servisWO.orderDetails - Close current work and clear cart session
+2024-03-27 07:23:17,878 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:23:22,012 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:23:22,071 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:23:22,185 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-27 07:23:22,185 INFO servisWO.magOrderToPickList - Admin Admin order 334188 picked
+2024-03-27 07:23:25,251 INFO servisWO.magPicking - Admin Admin order 334188 line 1 READY: SERIACCIAI500A01 Expected=5 Picked=0 FlagLoaded=0
+2024-03-27 07:23:38,593 INFO servisWO.magPicking - Admin Admin order 334188 line 1 UPDATED: SERIACCIAI500A01 Expected=5 Picked=5 FlagLoaded=1
+2024-03-27 07:23:40,059 INFO servisWO.magEndPicking - Admin Admin sent to control and invoice order 334188
+2024-03-27 07:23:40,184 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:23:43,860 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:23:48,529 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:23:48,557 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:23:48,674 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-27 07:23:48,693 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:23:48,721 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:23:48,836 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-27 07:23:48,836 INFO servisWO.magOrderToPickList - Admin Admin order 334188 picked for shipping
+2024-03-27 07:24:58,872 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 14
+2024-03-27 07:25:02,963 INFO servisWO.magEndPicking - Admin Admin shipped order 334188
+2024-03-27 07:25:04,077 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:29:38,563 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:29:38,680 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-27 07:29:38,734 INFO servisWO.orderList - Admin Admin loaded the order 334188
+2024-03-27 07:35:18,715 INFO servisWO.orderDetails - Admin Admin processed order 334188 with action: invia
+2024-03-27 07:35:26,282 INFO servisWO.orderDetails - Order PDF was created in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\hardcoded\S-ORD334188.pdf
+2024-03-27 07:35:26,300 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:35:26,301 INFO servisWO.orderDetails - Close current work and clear cart session
+2024-03-27 07:35:42,170 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:35:49,998 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:35:50,056 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:35:50,274 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-27 07:35:50,275 INFO servisWO.magOrderToPickList - Admin Admin order 334188 picked
+2024-03-27 07:35:50,789 INFO servisWO.magPicking - Admin Admin order 334188 line 1 READY: SERIACCIAI500A01 Expected=5 Picked=5 FlagLoaded=1
+2024-03-27 07:35:54,490 INFO servisWO.magPicking - Admin Admin order 334188 line 1 UPDATED: SERIACCIAI500A01 Expected=5 Picked=5 FlagLoaded=1
+2024-03-27 07:35:54,794 INFO servisWO.magPicking - Admin Admin order 334188 line 2 READY: SERIVERARPL90G02 Expected=2 Picked=0 FlagLoaded=0
+2024-03-27 07:36:05,914 INFO servisWO.magPicking - Admin Admin order 334188 line 2 UPDATED: SERIVERARPL90G02 Expected=2 Picked=2 FlagLoaded=1
+2024-03-27 07:36:10,880 INFO servisWO.magEndPicking - Admin Admin sent to control and invoice order 334188
+2024-03-27 07:36:10,991 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:36:14,117 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:36:19,791 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:36:19,820 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:36:20,007 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-27 07:36:20,028 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:36:20,055 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-03-27 07:36:20,246 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-03-27 07:36:20,247 INFO servisWO.magOrderToPickList - Admin Admin order 334188 picked for shipping
+2024-03-27 07:37:05,690 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 14
+2024-03-27 07:37:25,189 INFO servisWO.magEndPicking - Admin Admin shipped order 334188
+2024-03-27 07:37:26,438 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:02:30,523 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-04-04 14:02:38,706 INFO servisWO.login - LOGIN: Admin Admin
+2024-04-04 14:02:38,716 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-04-04 14:02:38,741 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:02:38,756 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:03:09,206 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:03:09,217 INFO servisWO.cartManager - Caricato listino BASE per il cliente C09030
+2024-04-04 14:03:09,218 INFO servisWO.customerList - Admin Admin selected customer: C09030(CT022823)
+2024-04-04 14:03:09,429 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 14
+2024-04-04 14:03:16,193 INFO servisWO.datamanager - SetOrderAsInvoiced: 334188
+2024-04-04 14:03:35,153 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:03:35,162 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-04-04 14:03:35,163 INFO servisWO.customerList - Admin Admin selected customer: C25210(CT024838)
+2024-04-04 14:03:35,249 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 13
+2024-04-04 14:03:49,689 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:03:49,742 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-04-04 14:03:49,743 INFO servisWO.orderNew - Admin Admin created cart 363094 for the customer C25210
+2024-04-04 14:03:49,824 INFO servisWO.orderNew - Admin Admin created order 334189 for the customer C25210
+2024-04-04 14:04:15,253 INFO servisWO.orderDetails - Admin Admin processed order 334189 with action: invia
+2024-04-04 14:04:25,861 INFO servisWO.orderDetails - Order PDF was created in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\hardcoded\S-ORD334189.pdf
+2024-04-04 14:04:25,880 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:04:25,881 INFO servisWO.orderDetails - Close current work and clear cart session
+2024-04-04 14:04:28,124 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:04:29,541 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:04:33,680 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:04:33,743 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:04:33,920 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-04-04 14:04:33,921 INFO servisWO.magOrderToPickList - Admin Admin order 334189 picked
+2024-04-04 14:04:34,837 INFO servisWO.magPicking - Admin Admin order 334189 line 2 READY: SERACHILL5OE01 Expected=2 Picked=0 FlagLoaded=0
+2024-04-04 14:04:47,862 INFO servisWO.magPicking - Admin Admin order 334189 line 2 UPDATED: SERACHILL5OE01 Expected=2 Picked=2 FlagLoaded=1
+2024-04-04 14:04:48,168 INFO servisWO.magPicking - Admin Admin order 334189 line 1 READY: SERIACHILEI200A Expected=10 Picked=0 FlagLoaded=0
+2024-04-04 14:04:57,915 INFO servisWO.magPicking - Admin Admin order 334189 line 1 UPDATED: SERIACHILEI200A Expected=10 Picked=10 FlagLoaded=1
+2024-04-04 14:05:02,692 INFO servisWO.magEndPicking - Admin Admin sent to control and invoice order 334189
+2024-04-04 14:05:02,815 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:05:07,616 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:05:12,359 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:05:12,388 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:05:12,566 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-04-04 14:05:12,584 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:05:12,613 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:05:12,789 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-04-04 14:05:12,790 INFO servisWO.magOrderToPickList - Admin Admin order 334189 picked for shipping
+2024-04-04 14:05:27,670 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 14
+2024-04-04 14:05:31,723 INFO servisWO.magEndPicking - Admin Admin shipped order 334189
+2024-04-04 14:05:32,844 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:12:55,653 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:12:55,838 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-04-04 14:12:55,922 INFO servisWO.orderList - Admin Admin loaded the order 334189
+2024-04-04 14:13:10,503 INFO servisWO.orderDetails - Admin Admin processed order 334189 with action: invia
+2024-04-04 14:13:13,824 INFO servisWO.orderDetails - Order PDF was created in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\hardcoded\S-ORD334189.pdf
+2024-04-04 14:13:13,838 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:13:13,839 INFO servisWO.orderDetails - Close current work and clear cart session
+2024-04-04 14:13:16,799 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:13:21,385 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:13:21,447 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:13:21,636 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-04-04 14:13:21,637 INFO servisWO.magOrderToPickList - Admin Admin order 334189 picked
+2024-04-04 14:13:22,163 INFO servisWO.magPicking - Admin Admin order 334189 line 2 READY: SERACHILL5OE01 Expected=3 Picked=2 FlagLoaded=1
+2024-04-04 14:13:26,586 INFO servisWO.magPicking - Admin Admin order 334189 line 2 UPDATED: SERACHILL5OE01 Expected=3 Picked=3 FlagLoaded=1
+2024-04-04 14:13:26,893 INFO servisWO.magPicking - Admin Admin order 334189 line 1 READY: SERIACHILEI200A Expected=6 Picked=10 FlagLoaded=1
+2024-04-04 14:13:29,885 INFO servisWO.magPicking - Admin Admin order 334189 line 1 UPDATED: SERIACHILEI200A Expected=6 Picked=6 FlagLoaded=1
+2024-04-04 14:13:31,801 INFO servisWO.magEndPicking - Admin Admin sent to control and invoice order 334189
+2024-04-04 14:13:31,920 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:13:35,543 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:13:40,053 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:13:40,083 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:13:40,276 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-04-04 14:13:40,294 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:13:40,327 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-04 14:13:40,532 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-04-04 14:13:40,532 INFO servisWO.magOrderToPickList - Admin Admin order 334189 picked for shipping
+2024-04-04 14:14:20,646 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 14
+2024-04-04 14:14:27,233 INFO servisWO.magEndPicking - Admin Admin shipped order 334189
+2024-04-04 14:14:28,335 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-30 09:18:37,558 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-04-30 09:18:55,064 INFO servisWO.login - LOGIN: Admin Admin
+2024-04-30 09:18:55,075 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-04-30 09:18:55,096 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-30 09:18:55,113 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-30 09:20:00,180 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-30 09:20:00,191 INFO servisWO.cartManager - Caricato listino BASE per il cliente C08150
+2024-04-30 09:20:00,191 INFO servisWO.customerList - Admin Admin selected customer: C08150(CT023582)
+2024-04-30 09:20:00,368 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 14
+2024-04-30 09:20:06,815 INFO servisWO.datamanager - SetOrderAsInvoiced: 334187
+2024-04-30 09:20:07,118 INFO servisWO.datamanager - SetOrderAsInvoiced: 334189
+2024-04-30 09:20:42,839 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-30 09:20:42,877 INFO servisWO.cartManager - Caricato listino BASE per il cliente C08150
+2024-04-30 09:20:42,877 INFO servisWO.orderNew - Admin Admin created cart 373094 for the customer C08150
+2024-04-30 09:20:42,951 INFO servisWO.orderNew - Admin Admin created order 334190 for the customer C08150
+2024-04-30 09:21:38,863 INFO servisWO.orderDetails - Admin Admin processed order 334190 with action: invia
+2024-04-30 09:21:49,155 INFO servisWO.orderDetails - Order PDF was created in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\hardcoded\S-ORD334190.pdf
+2024-04-30 09:21:49,175 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-30 09:21:49,176 INFO servisWO.orderDetails - Close current work and clear cart session
+2024-04-30 09:21:53,154 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-30 09:22:00,144 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-30 09:22:00,211 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-30 09:22:00,345 INFO servisWO.cartManager - Caricato listino BASE per il cliente C08150
+2024-04-30 09:22:00,345 INFO servisWO.magOrderToPickList - Admin Admin order 334190 picked
+2024-04-30 09:22:01,289 INFO servisWO.magPicking - Admin Admin order 334190 line 1 READY: SERIAGCAEI200A Expected=5 Picked=0 FlagLoaded=0
+2024-04-30 09:22:11,417 INFO servisWO.magPicking - Admin Admin order 334190 line 1 UPDATED: SERIAGCAEI200A Expected=5 Picked=5 FlagLoaded=1
+2024-04-30 09:22:12,951 INFO servisWO.magEndPicking - Admin Admin sent to control and invoice order 334190
+2024-04-30 09:22:13,087 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-30 09:22:19,097 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-30 09:22:23,510 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-30 09:22:23,541 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-30 09:22:23,664 INFO servisWO.cartManager - Caricato listino BASE per il cliente C08150
+2024-04-30 09:22:23,682 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-30 09:22:23,712 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-04-30 09:22:23,839 INFO servisWO.cartManager - Caricato listino BASE per il cliente C08150
+2024-04-30 09:22:23,840 INFO servisWO.magOrderToPickList - Admin Admin order 334190 picked for shipping
+2024-04-30 09:22:30,955 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 13
+2024-04-30 09:22:34,674 INFO servisWO.magEndPicking - Admin Admin shipped order 334190
+2024-04-30 09:22:35,746 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-24 15:05:53,418 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-24 15:17:11,986 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-24 15:17:57,532 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-24 15:18:03,421 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-24 15:18:03,431 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-24 15:18:03,453 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-24 15:18:03,470 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-24 15:18:47,810 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-24 15:18:51,491 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-24 15:18:51,499 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-24 15:18:51,517 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-24 15:18:51,530 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-24 15:19:07,952 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-24 15:20:37,675 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-24 15:21:56,726 INFO servisWO._default - LOGOUT: Admin Admin
+2024-05-24 15:22:09,078 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-24 15:22:09,087 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-24 15:22:09,102 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-24 15:22:09,172 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-24 15:22:31,003 INFO servisWO._default - LOGOUT: Admin Admin
+2024-05-24 15:22:37,061 ERROR servisWO.login - System.Exception: Cast non valido dal tipo 'DBNull' al tipo 'Date'.
+   in servisWO.datamanager.authenticate(String user, String pass) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.utenti.vb:riga 41
+   in servisWO.login.btn_login_Click(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\login.aspx.vb:riga 60
+2024-05-24 15:24:08,109 ERROR servisWO.login - System.Exception: Cast non valido dal tipo 'DBNull' al tipo 'Date'.
+   in servisWO.datamanager.authenticate(String user, String pass) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.utenti.vb:riga 41
+   in servisWO.login.btn_login_Click(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\login.aspx.vb:riga 60
+2024-05-24 15:24:15,305 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-24 15:24:28,349 ERROR servisWO.login - System.Exception: Cast non valido dal tipo 'DBNull' al tipo 'Date'.
+   in servisWO.datamanager.authenticate(String user, String pass) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.utenti.vb:riga 41
+   in servisWO.login.btn_login_Click(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\login.aspx.vb:riga 60
+2024-05-24 15:25:45,669 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-24 15:25:48,999 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-24 15:25:49,008 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-24 15:25:49,025 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-24 15:25:49,040 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-24 15:26:31,591 INFO servisWO._default - LOGOUT: Admin Admin
+2024-05-24 15:26:38,243 ERROR servisWO.login - System.Exception: Cast non valido dal tipo 'DBNull' al tipo 'Date'.
+   in servisWO.datamanager.authenticate(String user, String pass) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.utenti.vb:riga 41
+   in servisWO.login.btn_login_Click(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\login.aspx.vb:riga 60
+2024-05-24 15:26:42,248 ERROR servisWO.login - System.Exception: Cast non valido dal tipo 'DBNull' al tipo 'Date'.
+   in servisWO.datamanager.authenticate(String user, String pass) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.utenti.vb:riga 41
+   in servisWO.login.btn_login_Click(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\login.aspx.vb:riga 60
+2024-05-24 15:26:52,917 ERROR servisWO.login - System.Exception: Cast non valido dal tipo 'DBNull' al tipo 'Date'.
+   in servisWO.datamanager.authenticate(String user, String pass) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.utenti.vb:riga 41
+   in servisWO.login.btn_login_Click(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\login.aspx.vb:riga 60
+2024-05-24 15:44:51,090 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-24 15:44:51,099 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-24 15:44:51,114 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-24 15:44:51,129 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-24 15:44:54,295 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-24 15:44:54,303 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-24 15:44:54,318 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-24 15:44:54,337 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-27 08:54:40,158 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-27 08:54:43,736 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-27 08:54:43,746 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-27 08:54:43,765 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-27 08:54:43,781 INFO servisWO.cartManager - Caricato listino BASE per il cliente 

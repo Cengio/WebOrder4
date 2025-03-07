@@ -1,0 +1,547 @@
+2024-05-27 11:00:05,547 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-27 11:00:18,923 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-27 11:00:18,931 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-27 11:00:18,949 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-27 11:00:18,963 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-27 11:00:57,690 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-27 11:00:57,706 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-05-27 11:00:57,707 INFO servisWO.customerList - Admin Admin selected customer: C25210(CT024838)
+2024-05-27 11:00:57,879 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 6
+2024-05-27 11:01:23,792 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-27 11:01:23,827 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-05-27 11:01:23,828 INFO servisWO.orderNew - Admin Admin created cart 379610 for the customer C25210
+2024-05-27 11:01:23,887 INFO servisWO.orderNew - Admin Admin created order 340724 for the customer C25210
+2024-05-27 11:01:25,522 ERROR servisWO.productFinder - System.Exception: The multi-part identifier "B.Item No_" could not be bound.
+   in servisWO.datamanager.GetWOItems(String itemcode, String filterString, Boolean soloAttivi, String cod_macrolinea, String cod_linea, String cod_famiglia, String cod_sottofamiglia, String escludiArcheopatici, Boolean dispoReale, String escludiExpo, String CodiceListino) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 148
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 131
+2024-05-27 11:01:25,556 ERROR servisWO.productFinder - System.Exception: The multi-part identifier "B.Item No_" could not be bound.
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 137
+   in System.Web.UI.Control.OnDataBinding(EventArgs e)
+   in DevExpress.Web.Internal.DataHelper.PerformSelect()
+   in DevExpress.Web.Internal.DataContainer.PerformSelect()
+   in DevExpress.Web.ASPxDataWebControlBase.DataBindInternal()
+   in DevExpress.Web.ASPxWebControl.DataBind()
+   in servisWO.productFinder.Page_Load(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 41
+2024-05-27 11:05:22,237 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-27 11:05:29,427 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-27 11:05:29,437 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-27 11:05:29,457 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-27 11:05:29,473 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-27 11:07:47,251 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-27 11:07:47,268 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-05-27 11:07:47,268 INFO servisWO.customerList - Admin Admin selected customer: C25210(CT024838)
+2024-05-27 11:07:47,450 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 6
+2024-05-27 11:07:55,541 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-27 11:07:55,589 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-05-27 11:07:55,590 INFO servisWO.orderNew - Admin Admin created cart 379611 for the customer C25210
+2024-05-27 11:07:55,646 INFO servisWO.orderNew - Admin Admin created order 340725 for the customer C25210
+2024-05-27 11:12:14,132 INFO servisWO.orderDetails - Admin Admin processed order 340725 with action: salva
+2024-05-28 09:30:54,330 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-28 09:30:57,715 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-28 09:30:57,724 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-28 09:30:57,742 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-28 09:30:57,756 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-28 09:31:22,912 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-28 09:31:22,928 INFO servisWO.cartManager - Caricato listino BASE per il cliente C24786
+2024-05-28 09:31:22,929 INFO servisWO.customerList - Admin Admin selected customer: C24786(CT020599)
+2024-05-28 09:31:23,244 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 6
+2024-05-28 09:31:52,685 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-28 09:31:52,715 INFO servisWO.cartManager - Caricato listino BASE per il cliente C24786
+2024-05-28 09:31:52,716 INFO servisWO.orderNew - Admin Admin created cart 379612 for the customer C24786
+2024-05-28 09:31:52,757 INFO servisWO.orderNew - Admin Admin created order 340726 for the customer C24786
+2024-05-28 09:33:56,685 INFO servisWO.orderDetails - Admin Admin processed order 340726 with action: invia
+2024-05-28 09:34:06,954 INFO servisWO.orderDetails - Order PDF was created in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\hardcoded\S-ORD340726.pdf
+2024-05-28 09:34:06,973 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-28 09:34:06,973 INFO servisWO.orderDetails - Close current work and clear cart session
+2024-05-28 09:34:11,317 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-28 09:35:04,567 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-28 09:35:04,630 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-28 09:35:06,079 INFO servisWO.cartManager - Caricato listino BASE per il cliente C24786
+2024-05-28 09:35:06,080 INFO servisWO.magOrderToPickList - Admin Admin order 340726 picked
+2024-05-28 09:35:07,240 INFO servisWO.magPicking - Admin Admin order 340726 line 1 READY: SERIBEAVT90 Expected=13 Picked=0 FlagLoaded=0
+2024-05-28 09:35:38,095 INFO servisWO.magPicking - Admin Admin order 340726 line 1 UPDATED: SERIBEAVT90 Expected=13 Picked=13 FlagLoaded=1
+2024-05-28 09:35:38,420 INFO servisWO.magPicking - Admin Admin order 340726 line 2 READY: SERIVERALU90G02 Expected=2 Picked=0 FlagLoaded=0
+2024-05-28 09:35:45,919 INFO servisWO.magPicking - Admin Admin order 340726 line 2 UPDATED: SERIVERALU90G02 Expected=2 Picked=2 FlagLoaded=1
+2024-05-28 09:35:48,031 INFO servisWO.magEndPicking - Admin Admin sent to control and invoice order 340726
+2024-05-28 09:35:48,136 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-28 09:35:53,207 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-28 09:36:02,673 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-28 09:36:02,702 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-28 09:36:04,146 INFO servisWO.cartManager - Caricato listino BASE per il cliente C24786
+2024-05-28 09:36:04,164 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-28 09:36:04,196 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-28 09:36:05,623 INFO servisWO.cartManager - Caricato listino BASE per il cliente C24786
+2024-05-28 09:36:05,624 INFO servisWO.magOrderToPickList - Admin Admin order 340726 picked for shipping
+2024-05-28 09:36:34,029 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 7
+2024-05-28 09:36:34,083 INFO servisWO.magEndPicking - Admin Admin shipped order 340726
+2024-05-28 09:36:35,482 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:10:21,844 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-30 14:10:42,600 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-30 14:10:42,610 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-30 14:10:42,629 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:10:42,644 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:10:51,428 ERROR servisWO.productFinder - System.Exception: La colonna 'ItemCode' non appartiene alla tabella Table.
+   in servisWO.datamanager.GetWOItems(String itemcode, String filterString, Boolean soloAttivi, String cod_macrolinea, String cod_linea, String cod_famiglia, String cod_sottofamiglia, String escludiArcheopatici, Boolean dispoReale, String escludiExpo, String CodiceListino) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 148
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 131
+2024-05-30 14:10:51,453 ERROR servisWO.productFinder - System.Exception: La colonna 'ItemCode' non appartiene alla tabella Table.
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 137
+   in System.Web.UI.Control.OnDataBinding(EventArgs e)
+   in DevExpress.Web.Internal.DataHelper.PerformSelect()
+   in DevExpress.Web.Internal.DataContainer.PerformSelect()
+   in DevExpress.Web.ASPxDataWebControlBase.DataBindInternal()
+   in DevExpress.Web.ASPxWebControl.DataBind()
+   in servisWO.productFinder.Page_Load(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 41
+2024-05-30 14:11:00,292 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-30 14:11:00,300 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-30 14:11:00,316 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:11:00,332 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:11:19,294 ERROR servisWO.productFinder - System.Exception: La colonna 'ItemCode' non appartiene alla tabella Table.
+   in servisWO.datamanager.GetWOItems(String itemcode, String filterString, Boolean soloAttivi, String cod_macrolinea, String cod_linea, String cod_famiglia, String cod_sottofamiglia, String escludiArcheopatici, Boolean dispoReale, String escludiExpo, String CodiceListino) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 148
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 131
+2024-05-30 14:11:19,310 ERROR servisWO.productFinder - System.Exception: La colonna 'ItemCode' non appartiene alla tabella Table.
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 137
+   in System.Web.UI.Control.OnDataBinding(EventArgs e)
+   in DevExpress.Web.Internal.DataHelper.PerformSelect()
+   in DevExpress.Web.Internal.DataContainer.PerformSelect()
+   in DevExpress.Web.ASPxDataWebControlBase.DataBindInternal()
+   in DevExpress.Web.ASPxWebControl.DataBind()
+   in servisWO.productFinder.Page_Load(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 41
+2024-05-30 14:12:08,624 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-30 14:12:08,632 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-30 14:12:08,647 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:12:08,661 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:15:19,210 ERROR servisWO.productFinder - System.Exception: La colonna 'ItemCode' non appartiene alla tabella Table.
+   in servisWO.datamanager.GetWOItems(String itemcode, String filterString, Boolean soloAttivi, String cod_macrolinea, String cod_linea, String cod_famiglia, String cod_sottofamiglia, String escludiArcheopatici, Boolean dispoReale, String escludiExpo, String CodiceListino) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 148
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 131
+2024-05-30 14:15:19,227 ERROR servisWO.productFinder - System.Exception: La colonna 'ItemCode' non appartiene alla tabella Table.
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 137
+   in System.Web.UI.Control.OnDataBinding(EventArgs e)
+   in DevExpress.Web.Internal.DataHelper.PerformSelect()
+   in DevExpress.Web.Internal.DataContainer.PerformSelect()
+   in DevExpress.Web.ASPxDataWebControlBase.DataBindInternal()
+   in DevExpress.Web.ASPxWebControl.DataBind()
+   in servisWO.productFinder.Page_Load(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 41
+2024-05-30 14:15:26,602 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-30 14:15:26,610 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-30 14:15:26,625 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:15:26,641 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:17:15,444 ERROR servisWO.productFinder - System.Exception: La colonna 'ItemCode' non appartiene alla tabella Table.
+   in servisWO.datamanager.GetWOItems(String itemcode, String filterString, Boolean soloAttivi, String cod_macrolinea, String cod_linea, String cod_famiglia, String cod_sottofamiglia, String escludiArcheopatici, Boolean dispoReale, String escludiExpo, String CodiceListino)
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e)
+2024-05-30 14:17:15,465 ERROR servisWO.productFinder - System.Exception: La colonna 'ItemCode' non appartiene alla tabella Table.
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e)
+   in System.Web.UI.Control.OnDataBinding(EventArgs e)
+   in DevExpress.Web.Internal.DataHelper.PerformSelect()
+   in DevExpress.Web.Internal.DataContainer.PerformSelect()
+   in DevExpress.Web.ASPxDataWebControlBase.DataBindInternal()
+   in DevExpress.Web.ASPxWebControl.DataBind()
+   in servisWO.productFinder.Page_Load(Object sender, EventArgs e)
+2024-05-30 14:17:30,409 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-30 14:17:38,030 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-30 14:17:38,038 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-30 14:17:38,057 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:17:38,072 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:18:18,136 ERROR servisWO.productFinder - System.Exception: La colonna 'qtaMag' non appartiene alla tabella Table.
+   in servisWO.datamanager.GetWOItems(String itemcode, String filterString, Boolean soloAttivi, String cod_macrolinea, String cod_linea, String cod_famiglia, String cod_sottofamiglia, String escludiArcheopatici, Boolean dispoReale, String escludiExpo, String CodiceListino) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 148
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 131
+2024-05-30 14:18:18,204 ERROR servisWO.productFinder - System.Exception: La colonna 'qtaMag' non appartiene alla tabella Table.
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 137
+   in System.Web.UI.Control.OnDataBinding(EventArgs e)
+   in DevExpress.Web.Internal.DataHelper.PerformSelect()
+   in DevExpress.Web.Internal.DataContainer.PerformSelect()
+   in DevExpress.Web.ASPxDataWebControlBase.DataBindInternal()
+   in DevExpress.Web.ASPxWebControl.DataBind()
+   in servisWO.productFinder.Page_Load(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 41
+2024-05-30 14:18:21,896 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-30 14:18:21,904 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-30 14:18:21,920 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:18:21,936 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:20:38,207 ERROR servisWO.productFinder - System.Exception: La colonna 'qtaMag' non appartiene alla tabella Table.
+   in servisWO.datamanager.GetWOItems(String itemcode, String filterString, Boolean soloAttivi, String cod_macrolinea, String cod_linea, String cod_famiglia, String cod_sottofamiglia, String escludiArcheopatici, Boolean dispoReale, String escludiExpo, String CodiceListino) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 148
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 131
+2024-05-30 14:20:38,224 ERROR servisWO.productFinder - System.Exception: La colonna 'qtaMag' non appartiene alla tabella Table.
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 137
+   in System.Web.UI.Control.OnDataBinding(EventArgs e)
+   in DevExpress.Web.Internal.DataHelper.PerformSelect()
+   in DevExpress.Web.Internal.DataContainer.PerformSelect()
+   in DevExpress.Web.ASPxDataWebControlBase.DataBindInternal()
+   in DevExpress.Web.ASPxWebControl.DataBind()
+   in servisWO.productFinder.Page_Load(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 41
+2024-05-30 14:20:44,827 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-30 14:20:44,835 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-30 14:20:44,850 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:20:44,867 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:23:33,340 ERROR servisWO.productFinder - System.Exception: La colonna 'qtaMag' non appartiene alla tabella Table.
+   in servisWO.datamanager.GetWOItems(String itemcode, String filterString, Boolean soloAttivi, String cod_macrolinea, String cod_linea, String cod_famiglia, String cod_sottofamiglia, String escludiArcheopatici, Boolean dispoReale, String escludiExpo, String CodiceListino)
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e)
+2024-05-30 14:23:33,365 ERROR servisWO.productFinder - System.Exception: La colonna 'qtaMag' non appartiene alla tabella Table.
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e)
+   in System.Web.UI.Control.OnDataBinding(EventArgs e)
+   in DevExpress.Web.Internal.DataHelper.PerformSelect()
+   in DevExpress.Web.Internal.DataContainer.PerformSelect()
+   in DevExpress.Web.ASPxDataWebControlBase.DataBindInternal()
+   in DevExpress.Web.ASPxWebControl.DataBind()
+   in servisWO.productFinder.Page_Load(Object sender, EventArgs e)
+2024-05-30 14:23:44,551 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-30 14:24:32,271 INFO servisWO.Global_asax - Web Order STOPPED
+2024-05-30 14:24:39,777 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-30 14:26:22,152 INFO servisWO.Global_asax - Web Order STOPPED
+2024-05-30 14:26:30,486 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-30 14:26:38,610 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-30 14:26:38,619 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-30 14:26:38,638 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:26:38,654 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:29:09,162 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-30 14:29:16,166 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-30 14:29:16,175 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-30 14:29:16,193 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:29:16,209 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:30:45,738 ERROR servisWO.productFinder - System.Exception: La colonna 'qtaMag' non appartiene alla tabella Table.
+   in servisWO.datamanager.GetWOItems(String itemcode, String filterString, Boolean soloAttivi, String cod_macrolinea, String cod_linea, String cod_famiglia, String cod_sottofamiglia, String escludiArcheopatici, Boolean dispoReale, String escludiExpo, String CodiceListino) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 148
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 131
+2024-05-30 14:30:45,763 ERROR servisWO.productFinder - System.Exception: La colonna 'qtaMag' non appartiene alla tabella Table.
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 137
+   in System.Web.UI.Control.OnDataBinding(EventArgs e)
+   in DevExpress.Web.Internal.DataHelper.PerformSelect()
+   in DevExpress.Web.Internal.DataContainer.PerformSelect()
+   in DevExpress.Web.ASPxDataWebControlBase.DataBindInternal()
+   in DevExpress.Web.ASPxWebControl.DataBind()
+   in servisWO.productFinder.Page_Load(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 41
+2024-05-30 14:30:49,992 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-30 14:30:50,000 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-30 14:30:50,016 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:30:50,032 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:31:25,792 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-30 14:31:32,639 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-30 14:31:32,648 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-30 14:31:32,667 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:31:32,681 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:38:22,100 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:38:22,110 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-05-30 14:38:22,111 INFO servisWO.customerList - Admin Admin selected customer: C25210(CT024838)
+2024-05-30 14:38:22,273 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 7
+2024-05-30 14:38:32,503 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:38:32,533 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-05-30 14:38:32,534 INFO servisWO.orderNew - Admin Admin created cart 379613 for the customer C25210
+2024-05-30 14:38:32,574 INFO servisWO.orderNew - Admin Admin created order 340727 for the customer C25210
+2024-05-30 14:43:04,375 INFO servisWO.Global_asax - Web Order STOPPED
+2024-05-30 14:44:07,972 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-30 14:44:37,024 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-05-30 14:44:44,024 INFO servisWO.login - LOGIN: Admin Admin
+2024-05-30 14:44:44,033 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-05-30 14:44:44,053 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:44:44,068 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:44:56,529 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-05-30 14:44:56,583 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-05-30 14:44:56,585 INFO servisWO.orderList - Admin Admin loaded the order 340727
+2024-06-04 10:57:46,122 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-04 10:58:05,303 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-04 10:58:05,313 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-04 10:58:05,332 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-04 10:58:05,349 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-04 11:49:11,973 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-04 11:49:15,255 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-04 11:49:15,263 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-04 11:49:15,283 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-04 11:49:15,297 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-04 11:49:21,503 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-04 11:49:31,235 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-04 11:49:31,298 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-04 11:49:41,957 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-06-04 11:49:41,958 INFO servisWO.magOrderToPickList - Admin Admin order 340728 picked
+2024-06-04 11:49:42,587 INFO servisWO.magPicking - Admin Admin order 340728 line 1 READY: SEREMULS125V01 Expected=1 Picked=0 FlagLoaded=0
+2024-06-16 22:02:37,995 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-16 22:02:45,971 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-16 22:02:45,981 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-16 22:02:46,001 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-16 22:02:46,015 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-16 22:04:54,313 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-16 22:05:09,910 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-16 22:05:09,919 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-16 22:05:09,938 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-16 22:05:09,953 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-16 22:05:17,831 ERROR servisWO.productFinder - System.Exception: Invalid object name 'Ser-Vis$ReservationEntry'.
+   in servisWO.datamanager.GetWOItems(String itemcode, String filterString, Boolean soloAttivi, String cod_macrolinea, String cod_linea, String cod_famiglia, String cod_sottofamiglia, String escludiArcheopatici, Boolean dispoReale, String escludiExpo, String CodiceListino) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 148
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 131
+2024-06-16 22:05:17,865 ERROR servisWO.productFinder - System.Exception: Invalid object name 'Ser-Vis$ReservationEntry'.
+   in servisWO.productFinder.ASPxGridView_Cart_DataBinding(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 137
+   in System.Web.UI.Control.OnDataBinding(EventArgs e)
+   in DevExpress.Web.Internal.DataHelper.PerformSelect()
+   in DevExpress.Web.Internal.DataContainer.PerformSelect()
+   in DevExpress.Web.ASPxDataWebControlBase.DataBindInternal()
+   in DevExpress.Web.ASPxWebControl.DataBind()
+   in servisWO.productFinder.Page_Load(Object sender, EventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\productFinder.aspx.vb:riga 41
+2024-06-16 22:09:36,794 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-16 22:09:36,802 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-16 22:09:36,818 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-16 22:09:36,833 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-17 12:36:46,260 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-17 12:37:02,401 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-17 12:37:02,410 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-17 12:37:02,429 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-17 12:37:02,443 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-17 12:38:09,893 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-17 12:38:17,449 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-17 12:38:17,457 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-17 12:38:17,475 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-17 12:38:17,489 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-17 12:38:32,151 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-17 12:38:32,162 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-06-17 12:38:32,163 INFO servisWO.customerList - Admin Admin selected customer: C25210(CT024838)
+2024-06-17 12:38:32,369 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 8
+2024-06-17 12:38:45,706 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-17 12:38:45,736 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-06-17 12:38:45,737 INFO servisWO.orderNew - Admin Admin created cart 389611 for the customer C25210
+2024-06-17 12:38:45,775 INFO servisWO.orderNew - Admin Admin created order 340730 for the customer C25210
+2024-06-17 14:02:18,464 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-17 14:02:26,535 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-17 14:02:26,545 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-17 14:02:26,563 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-17 14:02:26,578 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-17 14:02:35,478 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-17 14:02:38,297 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-06-17 14:02:38,624 INFO servisWO.orderList - Admin Admin loaded the order 340730
+2024-06-19 07:55:24,057 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-19 07:55:31,389 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-19 07:55:31,398 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-19 07:55:31,418 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 07:55:31,433 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 07:55:45,464 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 07:56:02,110 INFO servisWO.cartManager - Caricato listino BASE per il cliente C16090
+2024-06-19 07:56:02,840 INFO servisWO.orderList - Admin Admin loaded the order 342142
+2024-06-19 07:59:03,171 INFO servisWO._default - Admin Admin deselected customer: C16090
+2024-06-19 07:59:03,181 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 12:07:57,930 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-19 12:08:02,014 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-19 12:08:02,023 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-19 12:08:02,043 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 12:08:02,060 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 12:10:10,378 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 12:10:28,504 INFO servisWO.cartManager - Caricato listino BASE per il cliente C16090
+2024-06-19 12:10:29,292 INFO servisWO.orderList - Admin Admin loaded the order 342142
+2024-06-19 12:18:38,011 INFO servisWO._default - Admin Admin deselected customer: C16090
+2024-06-19 12:18:38,021 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:05:54,156 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-19 14:06:03,757 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-19 14:06:03,766 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-19 14:06:03,785 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:06:03,801 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:06:29,290 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:06:29,493 ERROR servisWO.orderList - System.Exception: Incorrect syntax near the keyword 'AND'.
+   in servisWO.datamanager.getQtaMagento(String CodiceArticolo) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 397
+   in servisWO.datamanager.GetDisponibilitaProdotti(String CodiceArticolo, Boolean dispoReale, String filterString) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 220
+   in servisWO.cartManager.loadFromDBbyIdCarrello(Int64 idCarrello, Boolean orderByCollocazione) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\cartManager.vb:riga 103
+   in servisWO.cartManager.loadFromDBbyOrderCode(String orderCode, Boolean orderByCollocazione, Boolean refreshDisponibilita) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\cartManager.vb:riga 32
+   in servisWO.orderList.grid_CustomButtonCallback(Object sender, ASPxGridViewCustomButtonCallbackEventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\orderList.aspx.vb:riga 164
+2024-06-19 14:09:11,271 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-19 14:09:18,236 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-19 14:09:18,244 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-19 14:09:18,263 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:09:18,277 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:09:34,285 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:09:34,421 ERROR servisWO.orderList - System.Exception: Invalid object name 'Ser-SerVisReservationEntryLocalCopy'.
+   in servisWO.datamanager.getQtaMagento(String CodiceArticolo) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 397
+   in servisWO.datamanager.GetDisponibilitaProdotti(String CodiceArticolo, Boolean dispoReale, String filterString) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 220
+   in servisWO.cartManager.loadFromDBbyIdCarrello(Int64 idCarrello, Boolean orderByCollocazione) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\cartManager.vb:riga 103
+   in servisWO.cartManager.loadFromDBbyOrderCode(String orderCode, Boolean orderByCollocazione, Boolean refreshDisponibilita) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\cartManager.vb:riga 32
+   in servisWO.orderList.grid_CustomButtonCallback(Object sender, ASPxGridViewCustomButtonCallbackEventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\orderList.aspx.vb:riga 164
+2024-06-19 14:13:08,151 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-19 14:13:11,895 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-19 14:13:11,903 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-19 14:13:11,921 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:13:11,934 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:13:26,952 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:13:27,138 ERROR servisWO.orderList - System.Exception: Invalid object name 'Ser-SerVisReservationEntryLocalCopy'.
+   in servisWO.datamanager.getQtaMagento(String CodiceArticolo) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 397
+   in servisWO.datamanager.GetDisponibilitaProdotti(String CodiceArticolo, Boolean dispoReale, String filterString) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 220
+   in servisWO.cartManager.loadFromDBbyIdCarrello(Int64 idCarrello, Boolean orderByCollocazione) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\cartManager.vb:riga 103
+   in servisWO.cartManager.loadFromDBbyOrderCode(String orderCode, Boolean orderByCollocazione, Boolean refreshDisponibilita) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\cartManager.vb:riga 32
+   in servisWO.orderList.grid_CustomButtonCallback(Object sender, ASPxGridViewCustomButtonCallbackEventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\orderList.aspx.vb:riga 164
+2024-06-19 14:14:00,952 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-19 14:14:09,352 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-19 14:14:09,362 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-19 14:14:09,380 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:14:09,396 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:14:27,268 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:14:27,569 ERROR servisWO.orderList - System.Exception: Incorrect syntax near the keyword 'WHERE'.
+   in servisWO.datamanager.GetDisponibilitaProdottiPerLotto(String CodiceArticolo, Boolean dispoReale) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 301
+   in servisWO.cartManager.loadFromDBbyIdCarrello(Int64 idCarrello, Boolean orderByCollocazione) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\cartManager.vb:riga 116
+   in servisWO.cartManager.loadFromDBbyOrderCode(String orderCode, Boolean orderByCollocazione, Boolean refreshDisponibilita) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\cartManager.vb:riga 32
+   in servisWO.orderList.grid_CustomButtonCallback(Object sender, ASPxGridViewCustomButtonCallbackEventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\orderList.aspx.vb:riga 164
+2024-06-19 14:16:09,817 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-19 14:16:16,887 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-19 14:16:16,896 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-19 14:16:16,914 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:16:16,927 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:16:30,065 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:16:33,036 INFO servisWO.cartManager - Caricato listino BASE per il cliente C16090
+2024-06-19 14:16:33,781 INFO servisWO.orderList - Admin Admin loaded the order 342142
+2024-06-19 14:16:56,260 INFO servisWO._default - Admin Admin deselected customer: C16090
+2024-06-19 14:16:56,271 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:18:38,086 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:18:40,966 INFO servisWO.cartManager - Caricato listino BASE per il cliente C16090
+2024-06-19 14:18:41,653 INFO servisWO.orderList - Admin Admin loaded the order 342142
+2024-06-19 14:19:00,733 INFO servisWO._default - Admin Admin deselected customer: C16090
+2024-06-19 14:19:00,752 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:57:55,803 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-19 14:58:03,030 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-19 14:58:03,040 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-19 14:58:03,059 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 14:58:03,073 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 16:52:01,833 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-19 16:52:09,108 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-19 16:52:09,116 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-19 16:52:09,134 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 16:52:09,155 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 16:59:29,617 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-19 16:59:49,658 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-19 16:59:49,668 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-19 16:59:49,691 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 16:59:49,707 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 17:03:18,290 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 17:03:18,641 ERROR servisWO.orderList - System.Exception: Invalid object name 'SerVisReservationEntryLocalCopy'.
+   in servisWO.datamanager.getQtaInLavorazione(String CodiceArticolo) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 357
+   in servisWO.datamanager.GetDisponibilitaProdotti(String CodiceArticolo, Boolean dispoReale, String filterString) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\datamanager.articoli.vb:riga 221
+   in servisWO.cartManager.loadFromDBbyIdCarrello(Int64 idCarrello, Boolean orderByCollocazione) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\cartManager.vb:riga 103
+   in servisWO.cartManager.loadFromDBbyOrderCode(String orderCode, Boolean orderByCollocazione, Boolean refreshDisponibilita) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\App_Code\cartManager.vb:riga 32
+   in servisWO.orderList.grid_CustomButtonCallback(Object sender, ASPxGridViewCustomButtonCallbackEventArgs e) in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\orderList.aspx.vb:riga 164
+2024-06-19 17:07:58,139 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-19 17:08:01,543 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-19 17:08:01,552 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-19 17:08:01,571 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 17:08:01,586 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 17:08:28,529 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 17:09:35,994 INFO servisWO.cartManager - Caricato listino BASE per il cliente C08770
+2024-06-19 17:09:59,675 INFO servisWO.orderList - Admin Admin loaded the order 340706
+2024-06-19 17:14:44,680 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-19 17:14:52,340 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-19 17:14:52,349 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-19 17:14:52,368 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 17:14:52,384 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 17:15:13,637 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 17:15:39,704 INFO servisWO.cartManager - Caricato listino BASE per il cliente C08770
+2024-06-19 17:15:45,008 INFO servisWO.orderList - Admin Admin loaded the order 340705
+2024-06-19 22:38:01,229 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-19 22:38:12,968 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-19 22:38:12,977 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-19 22:38:12,996 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 22:38:13,010 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 22:38:43,462 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-19 22:39:32,949 INFO servisWO.cartManager - Caricato listino BASE per il cliente C08770
+2024-06-19 22:39:49,172 INFO servisWO.orderList - Admin Admin loaded the order 340706
+2024-06-23 19:55:00,002 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-23 19:55:17,219 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-23 19:55:17,228 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-23 19:55:17,248 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-23 19:55:17,264 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-23 19:58:43,063 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2024-06-23 19:59:21,402 INFO servisWO.login - LOGIN: Admin Admin
+2024-06-23 19:59:21,412 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2024-06-23 19:59:21,431 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-23 19:59:21,446 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-23 19:59:42,447 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-23 19:59:42,457 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-06-23 19:59:42,457 INFO servisWO.customerList - Admin Admin selected customer: C25210(CT024838)
+2024-06-23 19:59:42,638 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 8
+2024-06-23 19:59:52,914 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-23 19:59:52,961 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-06-23 19:59:52,962 INFO servisWO.orderNew - Admin Admin created cart 389612 for the customer C25210
+2024-06-23 19:59:53,045 INFO servisWO.orderNew - Admin Admin created order 340731 for the customer C25210
+2024-06-23 20:00:18,463 INFO servisWO.orderDetails - Admin Admin processed order 340731 with action: invia
+2024-06-23 20:00:28,936 INFO servisWO.orderDetails - Order PDF was created in C:\Users\domenico.camasta\source\repos\WebOrder4\servisWO\hardcoded\S-ORD340731.pdf
+2024-06-23 20:00:28,955 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-23 20:00:28,956 INFO servisWO.orderDetails - Close current work and clear cart session
+2024-06-23 20:00:47,819 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-23 20:00:57,621 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-23 20:00:57,683 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-23 20:00:57,824 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-06-23 20:00:57,825 INFO servisWO.magOrderToPickList - Admin Admin order 340731 picked
+2024-06-23 20:00:59,017 INFO servisWO.magPicking - Admin Admin order 340731 line 1 READY: SER_LIB0002 Expected=10 Picked=0 FlagLoaded=0
+2024-06-23 20:01:14,888 INFO servisWO.magPicking - Admin Admin order 340731 line 1 UPDATED: SER_LIB0002 Expected=10 Picked=10 FlagLoaded=1
+2024-06-23 20:01:16,600 INFO servisWO.magEndPicking - Admin Admin sent to control and invoice order 340731
+2024-06-23 20:01:16,737 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-23 20:01:21,652 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-23 20:01:27,671 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-23 20:01:27,700 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-23 20:01:27,833 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-06-23 20:01:27,850 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-23 20:01:27,880 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2024-06-23 20:01:28,015 INFO servisWO.cartManager - Caricato listino BASE per il cliente C25210
+2024-06-23 20:01:28,016 INFO servisWO.magOrderToPickList - Admin Admin order 340731 picked for shipping
+2024-06-23 20:01:53,249 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 9
+2024-06-23 20:01:53,316 INFO servisWO.magEndPicking - Admin Admin shipped order 340731
+2024-06-23 20:01:54,663 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 11:34:30,048 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-04 11:34:40,137 INFO servisWO.login - LOGIN: Bond James
+2025-03-04 11:34:40,144 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-04 11:34:40,160 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 11:34:40,170 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 11:35:58,496 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-04 11:36:07,195 INFO servisWO.login - LOGIN: Bond James
+2025-03-04 11:36:07,203 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-04 11:36:07,218 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 11:36:07,227 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 11:36:13,835 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 11:36:16,608 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 11:36:17,334 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 11:50:06,538 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-04 12:12:53,776 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-04 12:14:24,215 INFO servisWO.login - LOGIN: Bond James
+2025-03-04 12:14:24,222 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-04 12:14:24,241 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 12:14:24,255 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 12:19:06,038 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-04 12:20:36,488 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-04 12:20:39,971 INFO servisWO.login - LOGIN: Bond James
+2025-03-04 12:20:39,978 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-04 12:20:39,991 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 12:20:39,999 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 12:35:05,944 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-04 12:35:09,754 INFO servisWO.login - LOGIN: Bond James
+2025-03-04 12:35:09,760 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-04 12:35:09,780 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 12:35:09,788 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 12:38:09,892 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-04 12:38:13,223 INFO servisWO.login - LOGIN: Bond James
+2025-03-04 12:38:13,229 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-04 12:38:13,243 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 12:38:13,251 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 12:41:47,382 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-04 12:41:52,197 INFO servisWO.login - LOGIN: Bond James
+2025-03-04 12:41:52,203 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-04 12:41:52,216 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 12:41:52,230 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 14:54:30,138 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-04 14:54:38,701 INFO servisWO.login - LOGIN: Bond James
+2025-03-04 14:54:38,707 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-04 14:54:38,721 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 14:54:38,730 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 14:55:28,536 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 14:59:59,671 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-04 15:00:03,668 INFO servisWO.login - LOGIN: Bond James
+2025-03-04 15:00:03,678 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-04 15:00:03,694 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-04 15:00:03,704 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-05 09:50:23,486 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-06 13:01:21,632 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-06 13:01:27,212 INFO servisWO.login - LOGIN: Bond James
+2025-03-06 13:01:27,221 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-06 13:01:27,240 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-06 13:01:27,250 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-07 09:10:53,572 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 09:11:03,742 INFO servisWO.login - LOGIN: Bond James
+2025-03-07 09:11:03,749 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-07 09:11:03,765 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-07 09:11:03,775 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-07 09:15:05,770 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 09:15:16,388 INFO servisWO.login - LOGIN: Bond James
+2025-03-07 09:15:16,395 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-07 09:15:16,413 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-07 09:15:16,421 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-07 09:20:19,674 ERROR servisWO.orderReportDownload - System.Threading.ThreadAbortException: Thread interrotto.
+   in System.Threading.Thread.AbortInternal()
+   in System.Threading.Thread.Abort(Object stateInfo)
+   in System.Web.HttpResponse.AbortCurrentThread()
+   in System.Web.HttpResponse.End()
+   in servisWO.orderReportDownload.DownloadPDF(String orderNo)
+2025-03-07 10:03:52,529 INFO servisWO.Global_asax - Web Order 4.27 STARTED

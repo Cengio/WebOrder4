@@ -1,0 +1,699 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="default.master.vb" Inherits="servisWO._default" %>
+
+<%@ Register assembly="DevExpress.Web.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+
+<%@ Register Src="TimeoutControl.ascx" TagName="TimeoutControl" TagPrefix="TOC1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title></title>
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+
+	<script type="text/javascript">
+		function OnInitGrid(s, e) {
+			AdjustGridSize(); 
+		}
+		function OnEndCallbackGrid(s, e) {
+			AdjustGridSize();
+		}
+		function OnControlsInitialized(s, e) {
+			ASPxClientUtils.AttachEventToElement(window, "resize", function (evt) {
+				AdjustGridSize();
+			});
+		}
+		function AdjustGridSize() {
+			if (typeof (grid) !== "undefined") {
+				var height = splitter.GetPaneByName('contentPane').GetClientHeight();
+				grid.SetHeight(height - 4);
+			}
+		}
+
+		function finderEnterKey(htmlEvent) {
+			if (htmlEvent.keyCode == 13) {
+				btnfinderMaster.DoClick();
+			}
+		}
+	</script>
+
+</head>
+<body style="margin:0px;">
+	<form id="form_master" runat="server" style="margin: 0px">
+	<div>
+		<dx:ASPxSplitter ID="ASPxSplitterMain" runat="server" FullscreenMode="True" ClientInstanceName="splitter"
+			Width="100%" Height="100%" Orientation="Vertical" EnableTheming="True"
+			Theme="MetropolisBlue" SaveStateToCookies="True" SaveStateToCookiesID="wo-splittermain">
+			<ClientSideEvents PaneResized="function(){AdjustGridSize();}" />
+			<Panes>
+				<dx:SplitterPane Size="156px" Name="headerMain" MaxSize="156px" MinSize="156px">
+					<Separator Visible="False">
+					</Separator>
+					<PaneStyle>
+						<Paddings Padding="0px" />
+					</PaneStyle>
+					<ContentCollection>
+						<dx:SplitterContentControl ID="SplitterContentControl1" runat="server">
+							<table cellpadding="0" cellspacing="0" style="width: 100%; height: 118px; border-width: 1px; border-color: #A7A7A7; border-top-style: solid; border-bottom-style: solid; padding-top: 4px; padding-bottom: 4px; margin-top: 4px; margin-left: 0px; margin-right: 8px;">
+								<tr>
+									<td style="height: 80px; text-align: left; width: 40%;">
+										<dx:ASPxImage ID="logoHeader" runat="server"
+											ImageUrl="~/images/logo_giorgini.png">
+										</dx:ASPxImage>
+										<dx:ASPxPopupControl ID="popupCarrello" runat="server" AppearAfter="200"
+											ClientInstanceName="popupCarrello" ContentUrl="~/quickCart.aspx"
+											DisappearAfter="2000" EnableTheming="True" HeaderText="Anteprima carrello"
+											PopupAction="MouseOver" PopupElementID="lbQuickCart"
+											PopupHorizontalAlign="LeftSides" PopupVerticalAlign="TopSides"
+											Theme="SoftOrange" Width="460px" Height="460px"
+											ScrollBars="Auto" CloseAction="MouseOut" PopupAnimationType="Fade"
+											Opacity="100" ShowFooter="True">
+											<ClientSideEvents CloseUp="function(s, e) {
+	lbQuickCart.SetEnabled(true);
+}"
+												PopUp="function(s, e) {
+	lbQuickCart.SetEnabled(false);
+	popupCarrello.RefreshContentUrl();
+}" />
+											<FooterTemplate>
+												<dx:ASPxButton ID="btn_DettaglioCarrello" runat="server"
+													OnClick="btn_DettaglioCarrello_Click" OnInit="btn_DettaglioCarrello_Init"
+													Text="visualizza dettaglio" Theme="MetropolisBlue" Width="180px">
+												</dx:ASPxButton>
+											</FooterTemplate>
+											<ContentCollection>
+												<dx:PopupControlContentControl runat="server" SupportsDisabledAttribute="True">
+												</dx:PopupControlContentControl>
+											</ContentCollection>
+										</dx:ASPxPopupControl>
+									</td>
+									<td style="height: 60px; text-align: center; width: 10%; vertical-align: top;"></td>
+									<td style="height: 60px; text-align: right; width: 50%;">
+										<table width="100%">
+											<tr>
+												<td>
+													<dx:ASPxCallbackPanel ID="CallBMasterCart" runat="server"
+														ClientInstanceName="CallBMasterCart" EnableTheming="True"
+														 Theme="MetropolisBlue" Width="100%">
+														<SettingsLoadingPanel Enabled="False"></SettingsLoadingPanel>
+														<PanelCollection>
+															<dx:PanelContent runat="server" SupportsDisabledAttribute="True">
+																<table style="margin-right: 20px;" align="right">
+																	<tr>
+																		<td>
+																			<dx:ASPxLabel ID="ASPxLabel9" runat="server" Text="Utente Web:" Theme="Aqua">
+																			</dx:ASPxLabel>
+																		</td>
+																		<td style="text-align: left" colspan="2">
+																			<dx:ASPxButtonEdit ID="ASPxButtonEdit_user" runat="server" EnableTheming="True"
+																				Font-Bold="True" ReadOnly="True" Text="Web User Name" Theme="MetropolisBlue">
+																				<Buttons>
+																					<dx:EditButton ToolTip="Profilo utente" Visible="False">
+																						<Image Url="~/images/user_silhouette.png">
+																						</Image>
+																					</dx:EditButton>
+																					<dx:EditButton ToolTip="Logout">
+																						<Image Url="~/images/logout.png">
+																						</Image>
+																					</dx:EditButton>
+																				</Buttons>
+																				<Border BorderWidth="0px" />
+																			</dx:ASPxButtonEdit>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>
+																			<dx:ASPxLabel ID="lb_masterClienteLabel" runat="server" Text="Cliente:"
+																				Theme="Aqua">
+																			</dx:ASPxLabel>
+																			<dx:ASPxLabel ID="lb_masterCategoriaCliente" runat="server">
+																			</dx:ASPxLabel>
+																		</td>
+																		<td style="text-align: left">&nbsp;<dx:ASPxHyperLink ID="HyperLink_masterSelectedCustomer" runat="server"
+																			NavigateUrl="~/customerDetails.aspx" Style="font-weight: 700"
+																			Theme="MetropolisBlue">
+																		</dx:ASPxHyperLink>
+																		</td>
+																		<td style="text-align: left">
+																			<dx:ASPxCheckBox ID="cb_DeselezionaCliente" runat="server" AutoPostBack="True"
+																				Checked="True" CheckState="Checked">
+																			</dx:ASPxCheckBox>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>
+																			<dx:ASPxLabel ID="ASPxLabel10" runat="server" Text="Destinazione:"
+																				Theme="Aqua">
+																			</dx:ASPxLabel>
+																			&nbsp;</td>
+																		<td style="text-align: left" colspan="2">
+																			<dx:ASPxLabel ID="lb_MasterDestinazione" runat="server" Text="-"
+																				Theme="MetropolisBlue">
+																			</dx:ASPxLabel>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td style="height: 23px;">
+																			<dx:ASPxLabel ID="lb_ProdottiNelCarrelloOrdine" runat="server" ClientInstanceName="lbmastercart"
+																				Text="Prodotti nel carrello: " Theme="Aqua">
+																			</dx:ASPxLabel>
+																		</td>
+																		<td style="text-align: left; height: 23px;">
+																			<dx:ASPxLabel ID="lb_masterCartQta" runat="server" Text="0" Theme="MetropolisBlue"
+																				Font-Bold="True">
+																			</dx:ASPxLabel>
+																			&nbsp;di cui omaggio
+															<dx:ASPxLabel ID="lb_masterCartQtaOmaggio" runat="server" Font-Bold="True"
+																Text="0" Theme="MetropolisBlue">
+															</dx:ASPxLabel>
+																		</td>
+																		<td style="text-align: left; height: 23px;">
+																			&nbsp;</td>
+																	</tr>
+																	<tr>
+																		<td>&nbsp;<dx:ASPxLabel ID="ASPxLabel6" runat="server" Text="Totale merce:"
+																			Theme="Aqua">
+																		</dx:ASPxLabel>
+																		</td>
+																		<td style="text-align: left">
+																			<dx:ASPxLabel ID="lb_masterCartTot" runat="server" Text="0" Theme="Aqua" Font-Bold="True"></dx:ASPxLabel>
+																			&nbsp;(sc.<dx:ASPxLabel ID="lb_masterCartScontoHeader" runat="server" Font-Bold="True" Text="0" Theme="Aqua"></dx:ASPxLabel>%)&nbsp;(<dx:ASPxLabel ID="lb_masterCartProfiloSconto" runat="server" Text="" Theme="Aqua"></dx:ASPxLabel>)
+																		</td>
+																		<td style="text-align: left"></td>
+																	</tr>
+																</table>
+															</dx:PanelContent>
+														</PanelCollection>
+													</dx:ASPxCallbackPanel>
+												</td>
+											</tr>
+											<tr>
+												<td style="text-align: right; padding-right:30px;">
+													<dx:ASPxLabel ID="lbQuickCart" runat="server" ClientInstanceName="lbQuickCart"
+														Text="Anteprima carrello" Cursor="pointer">
+													</dx:ASPxLabel>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</dx:SplitterContentControl>
+					</ContentCollection>
+				</dx:SplitterPane>
+				<dx:SplitterPane Name="headerMenu" AllowResize="False" Size="40px">
+					<Separator Visible="False">
+					</Separator>
+					<PaneStyle BackColor="#F0F0F0" HorizontalAlign="Left">
+					</PaneStyle>
+					<ContentCollection>
+						<dx:SplitterContentControl runat="server">
+							<div>
+								<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td>
+											<dx:ASPxMenu ID="ASPxMenu_Main" runat="server" ItemAutoWidth="true" AppearAfter="100" EnableTheming="True" SelectParentItem="True" ShowPopOutImages="True" Theme="MetropolisBlue" VerticalAlign="Middle" Height="40px" EnableSubMenuScrolling="True" Width="100%" SeparatorWidth="10px" SeparatorColor="#F0F0F0">
+												<Items>
+													<dx:MenuItem Text="Carrello" Name="carrello" NavigateUrl="~/orderDetails.aspx">
+														<Image Url="~/images/navbar/carrello.png">
+														</Image>
+													</dx:MenuItem>
+													<dx:MenuItem Text="Cerca per linea" Name="cerca">
+														<Items>
+															<dx:MenuItem Text="Ricerca per dimensioni" BeginGroup="true" Name="cercadimensioni" EnableScrolling="true">
+																<ItemStyle Width="290px" />
+																<Template>
+																	<div style="overflow: auto">
+																		<dx:ASPxTreeView ID="ASPxTreeView_catalogo" runat="server" EnableCallBacks="True" OnVirtualModeCreateChildren="ASPxTreeView_catalogo_VirtualModeCreateChildren" Theme="MetropolisBlue" Height="360" Width="290">
+																			<SettingsLoadingPanel Delay="500" Mode="ShowAsPopup" />
+																		</dx:ASPxTreeView>
+																	</div>
+																	<asp:SqlDataSource ID="dsmacrolinee" runat="server" DataSourceMode="DataSet"></asp:SqlDataSource>
+																	<asp:SqlDataSource ID="dslinee" runat="server" DataSourceMode="DataSet">
+																		<SelectParameters><asp:Parameter Name="cod_macrolinea" Type="String" /></SelectParameters>
+																	</asp:SqlDataSource>
+																	<asp:SqlDataSource ID="dsfamiglie" runat="server" DataSourceMode="DataSet">
+																		<SelectParameters><asp:Parameter DbType="String" Name="cod_linea" /></SelectParameters>
+																	</asp:SqlDataSource>
+																	<asp:SqlDataSource ID="dssottofamiglie" runat="server" DataSourceMode="DataSet">
+																		<SelectParameters><asp:Parameter DbType="String" Name="cod_famiglia" /></SelectParameters>
+																	</asp:SqlDataSource>
+																</Template>
+															</dx:MenuItem>
+														</Items>
+														<Image Url="~/images/navbar/product.png">
+														</Image>
+													</dx:MenuItem>
+													<dx:MenuItem Text="Clienti" Name="clienti">
+														<Items>
+															<dx:MenuItem Text="Lista clienti" NavigateUrl="~/customerList.aspx">
+																<Image IconID="view_customers_16x16devav">
+																</Image>
+															</dx:MenuItem>
+															<dx:MenuItem Text="Lista contatti" NavigateUrl="~/contactList.aspx" Visible="false">
+																<Image IconID="people_customeremployees_16x16devav">
+																</Image>
+															</dx:MenuItem>
+															<dx:MenuItem Text="Lista nuovi clienti" NavigateUrl="~/newcustomerList.aspx">
+																<Image IconID="actions_newitem_16x16devav">
+																</Image>
+															</dx:MenuItem>
+															<dx:MenuItem Text="Aggiungi nuovo cliente" NavigateUrl="~/newcustomerAdd.aspx" BeginGroup="True">
+																<Image IconID="actions_newcustomers_16x16devav">
+																</Image>
+															</dx:MenuItem>
+														</Items>
+														<Image Url="~/images/navbar/customer.png">
+														</Image>
+													</dx:MenuItem>
+													<dx:MenuItem Text="Ordini" Name="ordini">
+														<Items>
+															<dx:MenuItem Text="Nuovo ordine" Name="nuovoordine" NavigateUrl="~/customerList.aspx?a=n&p=0">
+																<Image IconID="actions_insert_16x16">
+																</Image>
+															</dx:MenuItem>
+															<dx:MenuItem BeginGroup="True" Name="nuovoordineprenotazione" NavigateUrl="~/customerList.aspx?a=n&p=1" Text="Nuovo ordine in prenotazione">
+																<Image IconID="actions_insert_16x16">
+																</Image>
+															</dx:MenuItem>
+															<dx:MenuItem NavigateUrl="~/orderList.aspx?s=0,1,2,3,4,5,6,7&amp;ci=0,1&amp;ns=99&amp;nci=99&amp;p=1,2" Text="Ordini prenotati">
+																<Image IconID="chart_chartsshowlegend_16x16office2013">
+																</Image>
+															</dx:MenuItem>
+															<dx:MenuItem Text="Ordini salvati" NavigateUrl="~/orderList.aspx?s=0&amp;ci=0&amp;ns=99&amp;nci=99" BeginGroup="True">
+																<Image IconID="appearance_savetheme_16x16">
+																</Image>
+															</dx:MenuItem>
+															<dx:MenuItem Name="ordinidaapprovare" NavigateUrl="~/orderList.aspx?s=7&amp;ci=0&amp;ns=99&amp;nci=99" Text="Ordini in attesa di approvazione">
+																<Image IconID="programming_forcetesting_16x16">
+																</Image>
+															</dx:MenuItem>
+															<dx:MenuItem Text="Ordini in attesa di produzione" NavigateUrl="~/orderList.aspx?s=1&amp;ci=0,1&amp;ns=0&amp;nci=0">
+																<Image IconID="sales_salesperiodlifetime_16x16devav">
+																</Image>
+															</dx:MenuItem>
+															<dx:MenuItem Text="Ordini inviati a magazzino" NavigateUrl="~/orderList.aspx?s=2&amp;ci=0&amp;ns=99&amp;nci=99">
+																<Image IconID="businessobjects_boproductgroup_16x16">
+																</Image>
+															</dx:MenuItem>
+															<dx:MenuItem Text="Ordini annullati" NavigateUrl="~/orderList.aspx?s=6&amp;ci=0&amp;ns=99&amp;nci=99">
+																<Image IconID="actions_deletelist2_16x16">
+																</Image>
+															</dx:MenuItem>
+															<dx:MenuItem BeginGroup="True" NavigateUrl="~/orderList.aspx?s=0,1,2,3,4,5,6,7&amp;ci=0,1&amp;ns=99&amp;nci=99&amp;p=0,1,2" Text="Tutti gli ordini">
+																<Image IconID="chart_chartsshowlegend_16x16office2013">
+																</Image>
+															</dx:MenuItem>
+															<dx:MenuItem Text="Ordini da nuovi clienti" NavigateUrl="~/newcustomerOrderList.aspx" BeginGroup="True">
+																<Image IconID="mail_news_16x16">
+																</Image>
+															</dx:MenuItem>
+															<dx:MenuItem BeginGroup="True" NavigateUrl="~/orderListNav.aspx" Text="Storico ordini Navision">
+																<Image IconID="history_historyitem_16x16">
+																</Image>
+															</dx:MenuItem>
+															<dx:MenuItem BeginGroup="True" NavigateUrl="~/orderImport.aspx" Text="Ordini esterni da importare">
+																<Image IconID="support_article_16x16">
+																</Image>
+															</dx:MenuItem>
+														</Items>
+														<Image Url="~/images/navbar/ordini.png">
+														</Image>
+													</dx:MenuItem>
+													<dx:MenuItem Text="Magazzino" Name="magazzino" NavigateUrl="~/mag/magOrderToPickList.aspx?t=2&cf=0">
+														<Image Url="~/images/navbar/magazzino.png">
+														</Image>
+													</dx:MenuItem>
+													<dx:MenuItem Name="produzione" NavigateUrl="~/pro/proConfirmProduction.aspx" Text="Produzione">
+														<Image IconID="support_version_16x16">
+														</Image>
+													</dx:MenuItem>
+													<dx:MenuItem Text="Gestione" Name="gestione">
+														<Items>
+															<dx:MenuItem Text="Parametri sito" Name="parametrisito">
+																<Items>
+																	<dx:MenuItem Text="Parametri generali" NavigateUrl="~/mng/parametriSito.aspx">
+																		<Image IconID="chart_chartyaxissettings_16x16">
+																		</Image>
+																	</dx:MenuItem>
+																	<dx:MenuItem Text="Gestione bin code" NavigateUrl="~/mng/binContent.aspx">
+																		<Image IconID="programming_build_16x16">
+																		</Image>
+																	</dx:MenuItem>
+																</Items>
+																<Image IconID="reports_groupfieldcollection_16x16">
+																</Image>
+															</dx:MenuItem>
+															<dx:MenuItem Text="Gestione utenti" Name="utenti">
+																<Items>
+																	<dx:MenuItem NavigateUrl="~/usr/userMng.aspx" Text="Gestione utenti">
+																		<Image IconID="people_employee_16x16">
+																		</Image>
+																	</dx:MenuItem>
+																	<dx:MenuItem NavigateUrl="~/usr/userProfileMng.aspx" Text="Gestione profili-ruoli">
+																		<Image IconID="people_publicfix_16x16">
+																		</Image>
+																	</dx:MenuItem>
+																	<dx:MenuItem NavigateUrl="~/usr/userAudit.aspx" Text="Audit accessi">
+																		<Image IconID="actions_producttopsalesperson_16x16devav">
+																		</Image>
+																	</dx:MenuItem>
+																</Items>
+																<Image IconID="people_publicfix_16x16">
+																</Image>
+															</dx:MenuItem>
+														</Items>
+														<Image Url="~/images/navbar/Settings.png">
+														</Image>
+													</dx:MenuItem>
+												</Items>
+												<ItemStyle ImageSpacing="10px">
+													<Paddings PaddingRight="10px" />
+												</ItemStyle>
+											</dx:ASPxMenu>
+										</td>
+										<td style="vertical-align: top">
+											<table id="cercaprodotto" runat="server" cellpadding="0" cellspacing="0" border="0" style="width: 300px; padding: 1px; border-left: 1px solid #808080; padding-left: 4px;">
+												<tr>
+													<td align="center" style="vertical-align: middle;">
+														<table cellpadding="0" cellspacing="0" border="0">
+															<tr>
+																<td>
+																	<dx:ASPxCheckBox ID="cb_ESCLUDIarcheopatici" runat="server" Checked="True" Font-Size="7pt"
+																		CheckState="Checked" Text="Escludi Archeo">
+																	</dx:ASPxCheckBox>
+																</td>
+																<td>
+																	<dx:ASPxCheckBox runat="server" CheckState="Checked" Checked="True" Font-Size="7pt"
+																		Text="Escludi Expo" ID="cb_ESCLUDIexpo">
+																	</dx:ASPxCheckBox>
+																</td>
+															</tr>
+														</table>
+													</td>
+													<td style="width: 8px;"></td>
+													<td align="center" style="vertical-align: middle;">
+														<dx:ASPxTextBox ID="tb_quickSearch" runat="server" Theme="MetropolisBlue" ClientInstanceName="tb_quickSearchMaster"
+															Width="120px" EnableViewState="False">
+															<ClientSideEvents KeyDown="function(s, e) {finderEnterKey(e.htmlEvent);}" />
+														</dx:ASPxTextBox>
+													</td>
+													<td style="width: 4px;"></td>
+													<td align="left" style="vertical-align: middle">
+														<dx:ASPxButton ID="btn_finder" runat="server" Text="Cerca" ClientInstanceName="btnfinderMaster" Font-Size="8pt" Height="18"
+															Theme="MetropolisBlue" Width="60px" OnClick="btn_finder_Click">
+														</dx:ASPxButton>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</dx:SplitterContentControl>
+					</ContentCollection>
+				</dx:SplitterPane>
+				<dx:SplitterPane ScrollBars="Auto">
+					<Separator Visible="False">
+					</Separator>
+					<Panes>
+						<dx:SplitterPane Size="80%">
+							<Separator Size="18px">
+								<SeparatorStyle VerticalAlign="Top">
+									<Paddings PaddingTop="10px" />
+								</SeparatorStyle>
+								<CollapsedStyle BackColor="#BCC7D8">
+								</CollapsedStyle>
+								<ButtonStyle HorizontalAlign="Center" VerticalAlign="Top">
+								</ButtonStyle>
+								<BackwardCollapseButtonImage AlternateText="Nascondi" ToolTip="Nascondi" IconID="alignment_alignverticalleft_16x16">
+								</BackwardCollapseButtonImage>
+								<ForwardCollapseButtonImage AlternateText="Mostra" ToolTip="Mostra" IconID="alignment_alignverticalleft_16x16">
+								</ForwardCollapseButtonImage>
+							</Separator>
+							<Panes>
+								<dx:SplitterPane MaxSize="42px" MinSize="42px" Name="titlePane" AutoHeight="True">
+									<Separator Visible="False">
+									</Separator>
+									<ContentCollection>
+										<dx:SplitterContentControl runat="server" SupportsDisabledAttribute="True">
+											<table cellpadding="0" cellspacing="0" border="0" style="border-width: 1px; border-color: #A7A7A7; width: 100%; border-top-style: solid; border-bottom-style: solid; padding-top: 0px; padding-bottom: 4px; margin-bottom: 4px;">
+												<tr>
+													<td align="left" style="vertical-align: middle; text-align: left; font-size: 16pt; font-family: Tahoma; color: #498FCD;">
+														<asp:ContentPlaceHolder ID="CPH_titoli" runat="server">
+														</asp:ContentPlaceHolder>
+													</td>
+												</tr>
+											</table>
+										</dx:SplitterContentControl>
+									</ContentCollection>
+								</dx:SplitterPane>
+								<dx:SplitterPane Name="contentPane" MinSize="500px" ScrollBars="Auto">
+									<Separator Visible="False">
+									</Separator>
+									<PaneStyle>
+										<Paddings PaddingLeft="10px" PaddingRight="10px" PaddingTop="0px" PaddingBottom="4px" />
+									</PaneStyle>
+									<ContentCollection>
+										<dx:SplitterContentControl ID="SplitterContentControl3" runat="server">
+											<div id="mainDiv" style="width: 100%; height: 100%;">
+												<table cellpadding="0" cellspacing="0" border="0" style="width: 100%; height: 100%;">
+													<tr>
+														<td style="vertical-align: top; text-align: left; height: 100%; width: 100%;">
+															<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+															</asp:ContentPlaceHolder>
+														</td>
+													</tr>
+												</table>
+											</div>
+										</dx:SplitterContentControl>
+									</ContentCollection>
+								</dx:SplitterPane>
+							</Panes>
+							<ContentCollection>
+								<dx:SplitterContentControl runat="server" SupportsDisabledAttribute="True"></dx:SplitterContentControl>
+							</ContentCollection>
+						</dx:SplitterPane>
+						<dx:SplitterPane Name="promoMain" ScrollBars="Auto" ShowCollapseBackwardButton="True" ShowCollapseForwardButton="True" Size="20%">
+							<Separator Size="18px" Visible="True">
+								<SeparatorStyle VerticalAlign="Top">
+									<Paddings PaddingTop="10px" />
+								</SeparatorStyle>
+								<BackwardCollapseButtonImage IconID="alignment_alignverticalright_16x16">
+								</BackwardCollapseButtonImage>
+								<ForwardCollapseButtonImage IconID="alignment_alignverticalright_16x16">
+								</ForwardCollapseButtonImage>
+							</Separator>
+							<PaneStyle BackColor="#CCCCCC" Border-BorderColor="Gray" Border-BorderStyle="Dotted" Border-BorderWidth="1px">
+								<Paddings PaddingRight="10px" />
+							</PaneStyle>
+							<ContentCollection>
+								<dx:SplitterContentControl runat="server">
+
+									<div style="text-align: center;">
+										<dx:ASPxDataView ID="dataViewScontoScaglioni" runat="server" ClientInstanceName="dataViewScontoScaglioni" Width="100%" BackColor="#ffffff">
+											<SettingsTableLayout ColumnCount="1" />
+											<PagerSettings EndlessPagingMode="OnScroll" ShowNumericButtons="False">
+											</PagerSettings>
+											<ItemTemplate>
+												<dx:ASPxFormLayout ID="formLayoutScontoScaglioni" runat="server" ColCount="2" OnDataBinding="formLayoutScontoScaglioni_DataBinding" Width="100%" AlignItemCaptions="False" BackColor="#90EE90" OnLayoutItemDataBound="formLayoutScontoScaglioni_LayoutItemDataBound">
+													<Items>
+														<dx:LayoutItem ColSpan="2" FieldName="NomeScaglione" ShowCaption="False">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbNomeScaglione" runat="server" Font-Bold="True" Font-Size="11pt">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+														<dx:LayoutItem Caption="Cliente" FieldName="CodCliente">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbCodCliente" runat="server">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+														<dx:LayoutItem Caption="Fascia" FieldName="FatturatoDa">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbFatturatoDa" runat="server">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+														<dx:LayoutItem Caption="Sconto" FieldName="Sconto">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbSconto" runat="server">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+														<dx:LayoutItem Caption="Upselling" FieldName="Upselling">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbUpselling" runat="server">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+														<dx:LayoutItem Caption="Attivo" FieldName="Attivo">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbAttivo" runat="server">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+														<dx:LayoutItem Caption="Data fine" FieldName="Datafine">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbDatafine" runat="server">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+													</Items>
+													<Styles>
+														<LayoutItem>
+															<Caption Font-Bold="True">
+															</Caption>
+														</LayoutItem>
+													</Styles>
+												</dx:ASPxFormLayout>
+											</ItemTemplate>
+											<ItemStyle Height="100%">
+												<Paddings Padding="4px" />
+											</ItemStyle>
+										</dx:ASPxDataView>
+									</div>
+
+									<div style="text-align: center;">
+										<dx:ASPxDataView ID="dataViewPromo" runat="server" ClientInstanceName="dataViewPromo" Width="100%">
+											<SettingsTableLayout ColumnCount="1" />
+											<PagerSettings EndlessPagingMode="OnScroll" ShowNumericButtons="False">
+											</PagerSettings>
+											<ItemTemplate>
+												<dx:ASPxFormLayout ID="formLayoutPromo" runat="server" ColCount="2" OnDataBinding="formLayoutPromo_DataBinding" Width="100%" AlignItemCaptions="False" BackColor="#DDDDDD" OnLayoutItemDataBound="formLayoutPromo_LayoutItemDataBound">
+													<Items>
+														<dx:LayoutItem ColSpan="2" FieldName="nome_Promo" ShowCaption="False">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbNomePromo" runat="server" Font-Bold="True" Font-Size="11pt">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+														<dx:LayoutItem Caption="Inizio" FieldName="data_Inizio">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbDataInizio" runat="server">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+														<dx:LayoutItem Caption="Fine" FieldName="data_Fine">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbDataFine" runat="server">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+														<dx:LayoutItem Caption="Attivazione" FieldName="data_Attivazione">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbDataAttivazione" runat="server">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+														<dx:LayoutItem Caption="Durata" FieldName="durata_G">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbDurataG" runat="server">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+														<dx:LayoutItem Caption="Utilizzi" FieldName="Num_Utilizzi">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbNumUtilizzi" runat="server">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+														<dx:LayoutItem Caption="Utilizzi Max" FieldName="num_Max_Utilizzi">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbNumMaxUtilizzi" runat="server">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+														<dx:LayoutItem Caption="Cumulabile" FieldName="cumulabile_Prom">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbCumulabileProm" runat="server">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+														<dx:LayoutItem Caption="Canale" FieldName="nome_Canal">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbNomeCanal" runat="server">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+														<dx:LayoutItem Caption="Campagna" FieldName="codice_Campagna_Nav">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbCodiceCampagnaNav" runat="server">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+														<dx:LayoutItem Caption="CT" FieldName="codice_Contatto">
+															<LayoutItemNestedControlCollection>
+																<dx:LayoutItemNestedControlContainer runat="server">
+																	<dx:ASPxLabel ID="lbCodiceContatto" runat="server">
+																	</dx:ASPxLabel>
+																</dx:LayoutItemNestedControlContainer>
+															</LayoutItemNestedControlCollection>
+														</dx:LayoutItem>
+													</Items>
+													<Styles>
+														<LayoutItem>
+															<Caption Font-Bold="True">
+															</Caption>
+														</LayoutItem>
+													</Styles>
+												</dx:ASPxFormLayout>
+											</ItemTemplate>
+											<ItemStyle Height="100%">
+												<Paddings Padding="4px" />
+											</ItemStyle>
+										</dx:ASPxDataView>
+									</div>
+									
+								</dx:SplitterContentControl>
+							</ContentCollection>
+						</dx:SplitterPane>
+					</Panes>
+					<ContentCollection>
+						<dx:SplitterContentControl runat="server" SupportsDisabledAttribute="True">
+						</dx:SplitterContentControl>
+					</ContentCollection>
+				</dx:SplitterPane>
+			</Panes>
+		</dx:ASPxSplitter>
+	</div>
+	<TOC1:TimeoutControl ID="TimeoutControl1" runat="server" />
+	</form>
+</body>
+</html>

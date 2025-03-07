@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="emailBanner" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://www.drgiorgini.it/media/wysiwyg/banner/banner-accademia.jpg</Value>
+    </Setting>
+    <Setting Name="emailLink" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://www.drgiorgini.it/accademia?utm_source=mail_conferma_ordine&amp;amp;utm_medium=banner&amp;amp;utm_campaign=DR_Accademia_Giu18</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

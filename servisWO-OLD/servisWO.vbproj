@@ -1,0 +1,1047 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{EC2830AA-6E69-4062-97FE-05FF627EB3A3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>servisWO</RootNamespace>
+    <AssemblyName>servisWO</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Use64BitIISExpress />
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PackageAsSingleFile>true</PackageAsSingleFile>
+    <ExcludeGeneratedDebugSymbol>true</ExcludeGeneratedDebugSymbol>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.Designer.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v21.2.Core, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v21.2.Core.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v21.2.Web.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v21.2.Win.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v21.2.UI.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Diagram.v21.2.Core.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Map.v21.2.Core.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v21.2.Core.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v21.2.Core.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v21.2.Core, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v21.2.Core.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v21.2.Core, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v21.2.Export, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v21.2.Core, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v21.2.Core.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v21.2.Core.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Snap.v21.2.Core.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Snap.v21.2.Extensions.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Snap.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v21.2.Core.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.SpellChecker.v21.2.Core, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Spreadsheet.v21.2.Core.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v21.2.UI.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxHtmlEditor.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxHtmlEditor.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxPivotGrid.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxRichEdit.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxScheduler.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxScheduler.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxSpellChecker.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxSpellChecker.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxSpreadsheet.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxThemes.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxGantt.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxTreeList.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v21.2.Core, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v21.2.Core, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxTreeList.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v21.2.Web, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v21.2.Wizard.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v21.2.Core, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v21.2.Core.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v21.2.Presets, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v21.2.Presets.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPdfViewer.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v21.2.Extensions, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v21.2.Core, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v21.2.Extensions.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.Resources.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v21.2.Web.WebForms, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v21.2.Web, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v21.2.Web.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v21.2.Extensions.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v21.2.Core.Desktop, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v21.2.Core, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v21.2.Core.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v21.2.Extensions.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v21.2.Reporting.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpellChecker.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpreadsheet.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v21.2.resources, Version=21.2.7.0, Culture=it, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.14.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.14\lib\net45\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.2.0.1\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.9\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.9\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.9\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Reporting, Version=12.1.18.620, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Reporting.Services.WebApi, Version=12.1.18.620, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Reporting.XpsRendering, Version=12.1.18.620, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.ReportViewer.Html5.WebForms, Version=12.1.18.620, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\datamanager.import.vb" />
+    <Compile Include="App_Code\datamanager.listini.vb" />
+    <Compile Include="App_Code\datamanager.produzione.vb" />
+    <Compile Include="App_Code\orderEntityList.vb" />
+    <Compile Include="App_Code\reportcode\dataReportManager.vb" />
+    <Compile Include="App_Code\woentity\assegnazioneOrdine.vb" />
+    <Compile Include="App_Code\cartManager.Magazzino.vb" />
+    <Compile Include="App_Code\cartManager.vb" />
+    <Compile Include="App_Code\woentity\carrelloHeader.vb" />
+    <Compile Include="App_Code\woentity\carrelloLine.vb" />
+    <Compile Include="App_Code\woentity\carrelloHeaderPromo.vb" />
+    <Compile Include="App_Code\woentity\carrelloLinePromo.vb" />
+    <Compile Include="App_Code\datamanager.articoli.vb" />
+    <Compile Include="App_Code\datamanager.carrelli.vb" />
+    <Compile Include="App_Code\datamanager.clienti.vb" />
+    <Compile Include="App_Code\datamanager.ini.vb" />
+    <Compile Include="App_Code\datamanager.magazzino.vb" />
+    <Compile Include="App_Code\datamanager.ordini.vb" />
+    <Compile Include="App_Code\datamanager.parametrisito.vb" />
+    <Compile Include="App_Code\datamanager.promo.vb" />
+    <Compile Include="App_Code\datamanager.utenti.vb" />
+    <Compile Include="App_Code\datamanager.utility.vb" />
+    <Compile Include="App_Code\woentity\intCanaleDirezione.vb" />
+    <Compile Include="App_Code\woentity\promoHeader.vb" />
+    <Compile Include="App_Code\promoManager.vb" />
+    <Compile Include="App_Code\woentity\promoRow.vb" />
+    <Compile Include="App_Code\woentity\quantitaNonDisponibile.vb" />
+    <Compile Include="App_Code\woentity\unloadlostquantity.vb" />
+    <Compile Include="App_Code\woentity\newcustomer.vb" />
+    <Compile Include="App_Code\woentity\orderHeader.vb" />
+    <Compile Include="App_Code\woentity\orderLine.vb" />
+    <Compile Include="App_Code\orderstatus.vb" />
+    <Compile Include="App_Code\userManager.vb" />
+    <Compile Include="App_Code\workingCompanyManager.vb" />
+    <Compile Include="Controllers\ReportsController.vb" />
+    <Compile Include="CustomerDetailLanding.aspx.designer.vb">
+      <DependentUpon>CustomerDetailLanding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerDetailLanding.aspx.vb">
+      <DependentUpon>CustomerDetailLanding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="err\err403.aspx.designer.vb">
+      <DependentUpon>err403.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="err\err403.aspx.vb">
+      <DependentUpon>err403.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="mag\magAssegnaOrdini.aspx.designer.vb">
+      <DependentUpon>magAssegnaOrdini.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mag\magAssegnaOrdini.aspx.vb">
+      <DependentUpon>magAssegnaOrdini.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mag\magRaccogliOrdine.aspx.designer.vb">
+      <DependentUpon>magRaccogliOrdine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mag\magRaccogliOrdine.aspx.vb">
+      <DependentUpon>magRaccogliOrdine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="orderImport.aspx.designer.vb">
+      <DependentUpon>orderImport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="orderImport.aspx.vb">
+      <DependentUpon>orderImport.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="orderListNav.aspx.designer.vb">
+      <DependentUpon>orderListNav.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="orderListNav.aspx.vb">
+      <DependentUpon>orderListNav.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="orderReportDownload.aspx.designer.vb">
+      <DependentUpon>orderReportDownload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="orderReportDownload.aspx.vb">
+      <DependentUpon>orderReportDownload.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="orderReportTR.aspx.designer.vb">
+      <DependentUpon>orderReportTR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="orderReportTR.aspx.vb">
+      <DependentUpon>orderReportTR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="productDetails.aspx.designer.vb">
+      <DependentUpon>productDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="productDetails.aspx.vb">
+      <DependentUpon>productDetails.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="mag\magEndPicking.aspx.designer.vb">
+      <DependentUpon>magEndPicking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mag\magEndPicking.aspx.vb">
+      <DependentUpon>magEndPicking.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="mag\magOrderToPickList.aspx.designer.vb">
+      <DependentUpon>magOrderToPickList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mag\magOrderToPickList.aspx.vb">
+      <DependentUpon>magOrderToPickList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="mag\magazzino.Master.designer.vb">
+      <DependentUpon>magazzino.Master</DependentUpon>
+    </Compile>
+    <Compile Include="mag\magazzino.Master.vb">
+      <DependentUpon>magazzino.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mag\magPicking.aspx.designer.vb">
+      <DependentUpon>magPicking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mag\magPicking.aspx.vb">
+      <DependentUpon>magPicking.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="newcustomerOrderList.aspx.designer.vb">
+      <DependentUpon>newcustomerOrderList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="newcustomerOrderList.aspx.vb">
+      <DependentUpon>newcustomerOrderList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="newcustomerList.aspx.designer.vb">
+      <DependentUpon>newcustomerList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="newcustomerList.aspx.vb">
+      <DependentUpon>newcustomerList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="customerList.aspx.designer.vb">
+      <DependentUpon>customerList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customerList.aspx.vb">
+      <DependentUpon>customerList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="customerDetails.aspx.designer.vb">
+      <DependentUpon>customerDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customerDetails.aspx.vb">
+      <DependentUpon>customerDetails.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="newcustomerAdd.aspx.designer.vb">
+      <DependentUpon>newcustomerAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="newcustomerAdd.aspx.vb">
+      <DependentUpon>newcustomerAdd.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="orderReport.aspx.designer.vb">
+      <DependentUpon>orderReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="orderReport.aspx.vb">
+      <DependentUpon>orderReport.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="mng\binContent.aspx.designer.vb">
+      <DependentUpon>binContent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mng\binContent.aspx.vb">
+      <DependentUpon>binContent.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="orderNew.aspx.designer.vb">
+      <DependentUpon>orderNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="orderNew.aspx.vb">
+      <DependentUpon>orderNew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <!-- <Compile Include="DataClasses1.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DataClasses1.vb">
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </Compile> -->
+    <Compile Include="default.Master.designer.vb">
+      <DependentUpon>default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="default.Master.vb">
+      <DependentUpon>default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="orderDetails.aspx.designer.vb">
+      <DependentUpon>orderDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="orderDetails.aspx.vb">
+      <DependentUpon>orderDetails.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="orderList.aspx.designer.vb">
+      <DependentUpon>orderList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="orderList.aspx.vb">
+      <DependentUpon>orderList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="mng\parametriSito.aspx.designer.vb">
+      <DependentUpon>parametriSito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mng\parametriSito.aspx.vb">
+      <DependentUpon>parametriSito.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="productFinder.aspx.designer.vb">
+      <DependentUpon>productFinder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="productFinder.aspx.vb">
+      <DependentUpon>productFinder.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="pro\proConfirmPrenotazioni.aspx.designer.vb">
+      <DependentUpon>proConfirmPrenotazioni.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pro\proConfirmPrenotazioni.aspx.vb">
+      <DependentUpon>proConfirmPrenotazioni.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="pro\proConfirmProduction.aspx.designer.vb">
+      <DependentUpon>proConfirmProduction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pro\proConfirmProduction.aspx.vb">
+      <DependentUpon>proConfirmProduction.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="pro\produzione.Master.designer.vb">
+      <DependentUpon>produzione.Master</DependentUpon>
+    </Compile>
+    <Compile Include="pro\produzione.Master.vb">
+      <DependentUpon>produzione.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="quickCart.aspx.designer.vb">
+      <DependentUpon>quickCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="quickCart.aspx.vb">
+      <DependentUpon>quickCart.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="reports\Report1.Designer.vb">
+      <DependentUpon>Report1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reports\Report1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TimeoutControl.ascx.designer.vb">
+      <DependentUpon>TimeoutControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="TimeoutControl.ascx.vb">
+      <DependentUpon>TimeoutControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usermyprofile.aspx.designer.vb">
+      <DependentUpon>usermyprofile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usermyprofile.aspx.vb">
+      <DependentUpon>usermyprofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usr\userAudit.aspx.designer.vb">
+      <DependentUpon>userAudit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usr\userAudit.aspx.vb">
+      <DependentUpon>userAudit.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="usr\userMng.aspx.designer.vb">
+      <DependentUpon>userMng.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usr\userMng.aspx.vb">
+      <DependentUpon>userMng.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="usr\userProfileMng.aspx.designer.vb">
+      <DependentUpon>userProfileMng.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usr\userProfileMng.aspx.vb">
+      <DependentUpon>userProfileMng.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="reports\Report1.resx">
+      <DependentUpon>Report1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="App_Data\servis.ini" />
+    <Content Include="bin\servisWO.dll.config" />
+    <None Include="DataClasses1.dbml.layout">
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="CustomerDetailLanding.aspx" />
+    <Content Include="images\custom\logo_giorgini.png" />
+    <Content Include="images\custom\logo_naturalma.png" />
+    <Content Include="images\custom\logo_servis.png" />
+    <Content Include="images\delcartrowsmall.png" />
+    <Content Include="images\delcartrowsmall_off.png" />
+    <Content Include="images\produzioneMain.png" />
+    <Content Include="images\zeroPriceApp.png" />
+    <Content Include="images\zeropricesmall.png" />
+    <Content Include="images\zeropricesmall_off.png" />
+    <Content Include="orderImport.aspx" />
+    <Content Include="orderListNav.aspx" />
+    <Content Include="orderReportDownload.aspx" />
+    <Content Include="orderReportTR.aspx" />
+    <Content Include="pro\proConfirmPrenotazioni.aspx" />
+    <Content Include="pro\proConfirmProduction.aspx" />
+    <Content Include="pro\produzione.Master" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\servisReports.dll" />
+    <Content Include="bin\servisReports.pdb" />
+    <Content Include="bin\servisWO.dll" />
+    <Content Include="bin\servisWO.pdb" />
+    <Content Include="err\err403.aspx" />
+    <Content Include="images\accessdenied.png" />
+    <Content Include="images\delCart_off.png" />
+    <Content Include="images\pdfdocumentOFF.png" />
+    <Content Include="mag\magAssegnaOrdini.aspx" />
+    <Content Include="mag\magRaccogliOrdine.aspx" />
+    <Content Include="productDetails.aspx" />
+    <Content Include="hardcoded\deafultPDFdir.txt" />
+    <Content Include="images\carttoorder.png" />
+    <Content Include="images\interazioneAlert16.gif" />
+    <Content Include="images\interazioneAlert32.gif" />
+    <Content Include="images\interazioneClock32.gif" />
+    <Content Include="images\magazzinobig.png" />
+    <Content Include="images\magelabora.png" />
+    <Content Include="images\maginlavorazione.png" />
+    <Content Include="images\navbar\magazzino.png" />
+    <Content Include="images\pickKO.png" />
+    <Content Include="images\pickOK.png" />
+    <Content Include="images\question16.png" />
+    <Content Include="images\question32.gif" />
+    <Content Include="images\question32.png" />
+    <Content Include="images\Save.png" />
+    <Content Include="images\saveandmag.png" />
+    <Content Include="images\user_info.png" />
+    <Content Include="images\user_select.png" />
+    <Content Include="images\user_select_off.png" />
+    <Content Include="images\zeroPrice.png" />
+    <Content Include="images\zeroPriceDel.png" />
+    <Content Include="images\zeroPrice_off.png" />
+    <Content Include="mag\magEndPicking.aspx" />
+    <Content Include="mag\magOrderToPickList.aspx" />
+    <Content Include="mag\magPicking.aspx" />
+    <Content Include="newcustomerOrderList.aspx" />
+    <Content Include="newcustomerList.aspx" />
+    <Content Include="images\Keys_login.png" />
+    <Content Include="images\logout.png" />
+    <Content Include="images\navbar\sidebarOFF.png" />
+    <Content Include="images\navbar\sidebarON.png" />
+    <Content Include="images\navbar\webusers.png" />
+    <Content Include="images\pdfdocument.png" />
+    <Content Include="images\promoalert.png" />
+    <Content Include="images\promoSegmenti.png" />
+    <Content Include="images\user_silhouette.png" />
+    <Content Include="login.aspx" />
+    <Content Include="customerList.aspx" />
+    <Content Include="customerDetails.aspx" />
+    <Content Include="images\ASPxRoundPanel\1437297494\BottomLeftCorner.png" />
+    <Content Include="images\ASPxRoundPanel\1437297494\BottomRightCorner.png" />
+    <Content Include="images\ASPxRoundPanel\1437297494\HeaderContent.png" />
+    <Content Include="images\ASPxRoundPanel\1437297494\HeaderLeftEdge.png" />
+    <Content Include="images\ASPxRoundPanel\1437297494\HeaderRightEdge.png" />
+    <Content Include="images\ASPxRoundPanel\1437297494\NoHeaderTopLeftCorner.png" />
+    <Content Include="images\ASPxRoundPanel\1437297494\NoHeaderTopRightCorner.png" />
+    <Content Include="images\ASPxRoundPanel\1437297494\TopLeftCorner.png" />
+    <Content Include="images\ASPxRoundPanel\1437297494\TopRightCorner.png" />
+    <Content Include="images\ASPxRoundPanel\2071818824\BottomLeftCorner.png" />
+    <Content Include="images\ASPxRoundPanel\2071818824\BottomRightCorner.png" />
+    <Content Include="images\ASPxRoundPanel\2071818824\HeaderContent.png" />
+    <Content Include="images\ASPxRoundPanel\2071818824\HeaderLeftEdge.png" />
+    <Content Include="images\ASPxRoundPanel\2071818824\HeaderRightEdge.png" />
+    <Content Include="images\ASPxRoundPanel\2071818824\NoHeaderTopLeftCorner.png" />
+    <Content Include="images\ASPxRoundPanel\2071818824\NoHeaderTopRightCorner.png" />
+    <Content Include="images\ASPxRoundPanel\2071818824\TopLeftCorner.png" />
+    <Content Include="images\ASPxRoundPanel\2071818824\TopRightCorner.png" />
+    <Content Include="images\cancelFilter.png" />
+    <Content Include="images\cartrowsmall.png" />
+    <Content Include="images\cartrowsmall_off.png" />
+    <Content Include="images\cartTitle.png" />
+    <Content Include="images\cmpDet.png" />
+    <Content Include="images\Co.gif" />
+    <Content Include="images\Ex.gif" />
+    <Content Include="images\navbar\campagne.png" />
+    <Content Include="images\navbar\carrello.png" />
+    <Content Include="images\navbar\customer.png" />
+    <Content Include="images\navbar\ordini.png" />
+    <Content Include="images\navbar\product.png" />
+    <Content Include="images\navbar\promo.png" />
+    <Content Include="images\navbar\Settings.png" />
+    <Content Include="images\orderDET.png" />
+    <Content Include="images\orderMOD.png" />
+    <Content Include="images\orderMOD_off.png" />
+    <Content Include="images\orderNEW.png" />
+    <Content Include="images\orderNEW_off.png" />
+    <Content Include="images\user.png" />
+    <Content Include="images\user_add.png" />
+    <Content Include="images\user_off.png" />
+    <Content Include="newcustomerAdd.aspx" />
+    <Content Include="orderReport.aspx" />
+    <Content Include="mng\binContent.aspx" />
+    <Content Include="orderNew.aspx" />
+    <Content Include="default.Master" />
+    <None Include="DataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClasses1.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="mag\magazzino.Master" />
+    <Content Include="Logs\weborder_empty.log" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\serisWO_FileSystem.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="images\ASPxRoundPanel\505734883\BottomLeftCorner.png" />
+    <Content Include="images\ASPxRoundPanel\505734883\BottomRightCorner.png" />
+    <Content Include="images\ASPxRoundPanel\505734883\HeaderContent.png" />
+    <Content Include="images\ASPxRoundPanel\505734883\HeaderLeftEdge.png" />
+    <Content Include="images\ASPxRoundPanel\505734883\HeaderRightEdge.png" />
+    <Content Include="images\ASPxRoundPanel\505734883\NoHeaderTopLeftCorner.png" />
+    <Content Include="images\ASPxRoundPanel\505734883\NoHeaderTopRightCorner.png" />
+    <Content Include="images\ASPxRoundPanel\505734883\TopLeftCorner.png" />
+    <Content Include="images\ASPxRoundPanel\505734883\TopRightCorner.png" />
+    <Content Include="images\cartrow.png" />
+    <Content Include="images\cartrow_off.png" />
+    <Content Include="images\cart_big.png" />
+    <Content Include="images\delCart.png" />
+    <Content Include="images\login_headerpng.png" />
+    <Content Include="images\logo_giorgini.png" />
+    <Content Include="images\updCart.png" />
+    <Content Include="orderDetails.aspx" />
+    <Content Include="orderList.aspx" />
+    <Content Include="mng\parametriSito.aspx" />
+    <Content Include="productFinder.aspx" />
+    <Content Include="quickCart.aspx" />
+    <Content Include="Scripts\jquery-1.6.2-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.6.2.js" />
+    <Content Include="Scripts\jquery-1.6.2.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.14.js" />
+    <Content Include="Scripts\jquery-ui-1.8.14.min.js" />
+    <Content Include="TimeoutControl.ascx" />
+    <Content Include="usermyprofile.aspx" />
+    <Content Include="usr\userAudit.aspx" />
+    <Content Include="usr\userMng.aspx" />
+    <Content Include="usr\userProfileMng.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <!--<Content Include="Site.Master" />-->
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\servisReports\servisReports.vbproj">
+      <Project>{1DEA63DF-C4A7-4BEE-8AC6-27B59752C1AF}</Project>
+      <Name>servisReports</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bincodeimages\" />
+    <Folder Include="bin\it\" />
+    <Folder Include="DXTempFolder\BinaryData\" />
+  </ItemGroup>
+  <!--<ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>-->
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58193</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58193/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Questo progetto fa riferimento a uno o più pacchetti NuGet che non sono presenti in questo computer. Usare lo strumento di ripristino dei pacchetti NuGet per scaricarli. Per altre informazioni, vedere http://go.microsoft.com/fwlink/?LinkID=322105. Il file mancante è {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

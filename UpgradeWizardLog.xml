@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Workspaces\WebOrder4\servisWO\servisWO.vbproj" />
+  <event action="Analyze" type="Success" name="Binary References" path="C:\Workspaces\WebOrder4\servisWO\bin\" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Workspaces\WebOrder4\servisWO\bin\servisWO.dll.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Workspaces\WebOrder4\servisWO\bin\servisWO.dll.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Workspaces\WebOrder4\servisWO\bin\servisWO.dll.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Workspaces\WebOrder4\servisWO\bin\servisWO.dll.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Workspaces\WebOrder4\servisWO\bin\servisWO.dll.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Workspaces\WebOrder4\servisWO\bin\servisWO.dll.config" />
+  <event action="Analyze" type="Success" name="servisWO.dll.config" path="C:\Workspaces\WebOrder4\servisWO\bin\servisWO.dll.config" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\CustomerDetailLanding.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\CustomerDetailLanding.aspx" />
+  <event action="Analyze" type="Success" name="CustomerDetailLanding.aspx" path="C:\Workspaces\WebOrder4\servisWO\CustomerDetailLanding.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\customerDetails.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\customerDetails.aspx" />
+  <event action="Analyze" type="Success" name="customerDetails.aspx" path="C:\Workspaces\WebOrder4\servisWO\customerDetails.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\customerList.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\customerList.aspx" />
+  <event action="Analyze" type="Success" name="customerList.aspx" path="C:\Workspaces\WebOrder4\servisWO\customerList.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\default.Master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\default.Master" />
+  <event action="Analyze" type="Success" name="default.Master" path="C:\Workspaces\WebOrder4\servisWO\default.Master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\err\err403.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\err\err403.aspx" />
+  <event action="Analyze" type="Success" name="err403.aspx" path="C:\Workspaces\WebOrder4\servisWO\err\err403.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\login.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\login.aspx" />
+  <event action="Analyze" type="Success" name="login.aspx" path="C:\Workspaces\WebOrder4\servisWO\login.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\mag\magAssegnaOrdini.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\mag\magAssegnaOrdini.aspx" />
+  <event action="Analyze" type="Success" name="magAssegnaOrdini.aspx" path="C:\Workspaces\WebOrder4\servisWO\mag\magAssegnaOrdini.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\mag\magazzino.Master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\mag\magazzino.Master" />
+  <event action="Analyze" type="Success" name="magazzino.Master" path="C:\Workspaces\WebOrder4\servisWO\mag\magazzino.Master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\mag\magEndPicking.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\mag\magEndPicking.aspx" />
+  <event action="Analyze" type="Success" name="magEndPicking.aspx" path="C:\Workspaces\WebOrder4\servisWO\mag\magEndPicking.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\mag\magOrderToPickList.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\mag\magOrderToPickList.aspx" />
+  <event action="Analyze" type="Success" name="magOrderToPickList.aspx" path="C:\Workspaces\WebOrder4\servisWO\mag\magOrderToPickList.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\mag\magPicking.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\mag\magPicking.aspx" />
+  <event action="Analyze" type="Success" name="magPicking.aspx" path="C:\Workspaces\WebOrder4\servisWO\mag\magPicking.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\mag\magRaccogliOrdine.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\mag\magRaccogliOrdine.aspx" />
+  <event action="Analyze" type="Success" name="magRaccogliOrdine.aspx" path="C:\Workspaces\WebOrder4\servisWO\mag\magRaccogliOrdine.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\mng\binContent.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\mng\binContent.aspx" />
+  <event action="Analyze" type="Success" name="binContent.aspx" path="C:\Workspaces\WebOrder4\servisWO\mng\binContent.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\mng\parametriSito.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\mng\parametriSito.aspx" />
+  <event action="Analyze" type="Success" name="parametriSito.aspx" path="C:\Workspaces\WebOrder4\servisWO\mng\parametriSito.aspx" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Workspaces\WebOrder4\servisWO\My Project\Resources.resx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\newcustomerAdd.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\newcustomerAdd.aspx" />
+  <event action="Analyze" type="Success" name="newcustomerAdd.aspx" path="C:\Workspaces\WebOrder4\servisWO\newcustomerAdd.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\newcustomerList.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\newcustomerList.aspx" />
+  <event action="Analyze" type="Success" name="newcustomerList.aspx" path="C:\Workspaces\WebOrder4\servisWO\newcustomerList.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\newcustomerOrderList.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\newcustomerOrderList.aspx" />
+  <event action="Analyze" type="Success" name="newcustomerOrderList.aspx" path="C:\Workspaces\WebOrder4\servisWO\newcustomerOrderList.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\orderDetails.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\orderDetails.aspx" />
+  <event action="Analyze" type="Success" name="orderDetails.aspx" path="C:\Workspaces\WebOrder4\servisWO\orderDetails.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\orderImport.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\orderImport.aspx" />
+  <event action="Analyze" type="Success" name="orderImport.aspx" path="C:\Workspaces\WebOrder4\servisWO\orderImport.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\orderList.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\orderList.aspx" />
+  <event action="Analyze" type="Success" name="orderList.aspx" path="C:\Workspaces\WebOrder4\servisWO\orderList.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\orderListNav.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\orderListNav.aspx" />
+  <event action="Analyze" type="Success" name="orderListNav.aspx" path="C:\Workspaces\WebOrder4\servisWO\orderListNav.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\orderNew.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\orderNew.aspx" />
+  <event action="Analyze" type="Success" name="orderNew.aspx" path="C:\Workspaces\WebOrder4\servisWO\orderNew.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\orderReport.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\orderReport.aspx" />
+  <event action="Analyze" type="Success" name="orderReport.aspx" path="C:\Workspaces\WebOrder4\servisWO\orderReport.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\orderReportDownload.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\orderReportDownload.aspx" />
+  <event action="Analyze" type="Success" name="orderReportDownload.aspx" path="C:\Workspaces\WebOrder4\servisWO\orderReportDownload.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\orderReportTR.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\orderReportTR.aspx" />
+  <event action="Analyze" type="Success" name="orderReportTR.aspx" path="C:\Workspaces\WebOrder4\servisWO\orderReportTR.aspx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Workspaces\WebOrder4\servisWO\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Workspaces\WebOrder4\servisWO\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Workspaces\WebOrder4\servisWO\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Workspaces\WebOrder4\servisWO\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Workspaces\WebOrder4\servisWO\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Workspaces\WebOrder4\servisWO\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Workspaces\WebOrder4\servisWO\packages.config" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\pro\proConfirmPrenotazioni.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\pro\proConfirmPrenotazioni.aspx" />
+  <event action="Analyze" type="Success" name="proConfirmPrenotazioni.aspx" path="C:\Workspaces\WebOrder4\servisWO\pro\proConfirmPrenotazioni.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\pro\proConfirmProduction.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\pro\proConfirmProduction.aspx" />
+  <event action="Analyze" type="Success" name="proConfirmProduction.aspx" path="C:\Workspaces\WebOrder4\servisWO\pro\proConfirmProduction.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\pro\produzione.Master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\pro\produzione.Master" />
+  <event action="Analyze" type="Success" name="produzione.Master" path="C:\Workspaces\WebOrder4\servisWO\pro\produzione.Master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\productDetails.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\productDetails.aspx" />
+  <event action="Analyze" type="Success" name="productDetails.aspx" path="C:\Workspaces\WebOrder4\servisWO\productDetails.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\productFinder.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\productFinder.aspx" />
+  <event action="Analyze" type="Success" name="productFinder.aspx" path="C:\Workspaces\WebOrder4\servisWO\productFinder.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\quickCart.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\quickCart.aspx" />
+  <event action="Analyze" type="Success" name="quickCart.aspx" path="C:\Workspaces\WebOrder4\servisWO\quickCart.aspx" />
+  <event action="Analyze" type="Success" name="Report1.resx" path="C:\Workspaces\WebOrder4\servisWO\reports\Report1.resx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\TimeoutControl.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\TimeoutControl.ascx" />
+  <event action="Analyze" type="Success" name="TimeoutControl.ascx" path="C:\Workspaces\WebOrder4\servisWO\TimeoutControl.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\usermyprofile.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\usermyprofile.aspx" />
+  <event action="Analyze" type="Success" name="usermyprofile.aspx" path="C:\Workspaces\WebOrder4\servisWO\usermyprofile.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\usr\userAudit.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\usr\userAudit.aspx" />
+  <event action="Analyze" type="Success" name="userAudit.aspx" path="C:\Workspaces\WebOrder4\servisWO\usr\userAudit.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\usr\userMng.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\usr\userMng.aspx" />
+  <event action="Analyze" type="Success" name="userMng.aspx" path="C:\Workspaces\WebOrder4\servisWO\usr\userMng.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\usr\userProfileMng.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Workspaces\WebOrder4\servisWO\usr\userProfileMng.aspx" />
+  <event action="Analyze" type="Success" name="userProfileMng.aspx" path="C:\Workspaces\WebOrder4\servisWO\usr\userProfileMng.aspx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Workspaces\WebOrder4\servisWO\Web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Workspaces\WebOrder4\servisWO\Web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Workspaces\WebOrder4\servisWO\Web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Workspaces\WebOrder4\servisWO\Web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Workspaces\WebOrder4\servisWO\Web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Workspaces\WebOrder4\servisWO\Web.config" />
+  <event action="Analyze" type="Success" name="Web.config" path="C:\Workspaces\WebOrder4\servisWO\Web.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Workspaces\WebOrder4\servisWO\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Workspaces\WebOrder4\servisWO\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Workspaces\WebOrder4\servisWO\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Workspaces\WebOrder4\servisWO\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Workspaces\WebOrder4\servisWO\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Workspaces\WebOrder4\servisWO\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Web.Debug.config" path="C:\Workspaces\WebOrder4\servisWO\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Workspaces\WebOrder4\servisWO\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Workspaces\WebOrder4\servisWO\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Workspaces\WebOrder4\servisWO\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Workspaces\WebOrder4\servisWO\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Workspaces\WebOrder4\servisWO\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Workspaces\WebOrder4\servisWO\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Web.Release.config" path="C:\Workspaces\WebOrder4\servisWO\Web.Release.config" />
+  <event action="Analyze" type="Success" name="servisWO" path="C:\Workspaces\WebOrder4\servisWO\servisWO.vbproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Workspaces\WebOrder4\servisReports\servisReports.vbproj" />
+  <event action="Analyze" type="Success" name="Binary References" path="C:\Workspaces\WebOrder4\servisReports\bin\" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Workspaces\WebOrder4\servisReports\My Project\Resources.resx" />
+  <event action="Analyze" type="Success" name="repOrdine.resx" path="C:\Workspaces\WebOrder4\servisReports\repOrdine.resx" />
+  <event action="Analyze" type="Success" name="servisReports" path="C:\Workspaces\WebOrder4\servisReports\servisReports.vbproj" />
+  <event action="Analyze" type="Success" name="servisWO" path="C:\Workspaces\WebOrder4\servisWO.sln" />
+  <event action="Backup" type="Success" name="servisWO" path="C:\Workspaces\WebOrder4\servisWO\servisWO.vbproj" />
+  <event action="Backup" type="Success" name="servisReports" path="C:\Workspaces\WebOrder4\servisReports\servisReports.vbproj" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="C:\Workspaces\WebOrder4\servisWO\servisWO.vbproj" />
+  <event action="Upgrade" type="Success" name="Register Directives" path="C:\Workspaces\WebOrder4\servisWO\orderReportTR.aspx" />
+  <event action="Upgrade" type="Success" name="orderReportTR.aspx" path="C:\Workspaces\WebOrder4\servisWO\orderReportTR.aspx" />
+  <event action="Upgrade" type="Success" name="Report1.resx" path="C:\Workspaces\WebOrder4\servisWO\reports\Report1.resx" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="C:\Workspaces\WebOrder4\servisWO\Web.config" />
+  <event action="Upgrade" type="Success" name="Config Sections" path="C:\Workspaces\WebOrder4\servisWO\Web.config" />
+  <event action="Upgrade" type="Success" name="Web.config" path="C:\Workspaces\WebOrder4\servisWO\Web.config" />
+  <event action="Upgrade" type="Success" name="servisWO" path="C:\Workspaces\WebOrder4\servisWO\servisWO.vbproj" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="C:\Workspaces\WebOrder4\servisReports\servisReports.vbproj" />
+  <event action="Upgrade" type="Success" name="servisReports" path="C:\Workspaces\WebOrder4\servisReports\servisReports.vbproj" />
+  <event action="Upgrade" type="Success" name="servisWO" path="C:\Workspaces\WebOrder4\servisWO.sln" />
+</log>

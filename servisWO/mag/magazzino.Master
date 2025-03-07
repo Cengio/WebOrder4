@@ -1,0 +1,173 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="magazzino.master.vb" Inherits="servisWO.magazzinoMasterPage" %>
+
+<%@ Register assembly="DevExpress.Web.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 450px;
+            height: 90px;
+        }
+        .style2
+        {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div align="center">
+    <table cellpadding="0" cellspacing="0" style="width: 100%;">
+            <tr>
+                <td style="height: 120px">
+
+                    <table cellpadding="0" cellspacing="0" style="height:100%; width:100%;">
+                        <tr>
+                            <td style="text-align: left; vertical-align: top">
+                                 <dx:ASPxImage ID="logoHeader" runat="server"
+                                            ImageUrl="~/images/logo_giorgini.png">
+                                        </dx:ASPxImage>
+                            </td>
+                            <td style="vertical-align: top;">
+
+                             <dx:ASPxCallbackPanel ID="ASPxCallbackPanel1" runat="server">
+                                <PanelCollection>
+                                <dx:PanelContent runat="server" SupportsDisabledAttribute="True">
+    <table align="right" style="margin-right: 20px;">
+        <tr>
+            <td style="text-align: right">
+                <img alt="" class="style2" src="../images/magazzinobig.png" />
+            </td>
+            <td>
+                <dx:ASPxLabel ID="ASPxLabel1" runat="server" Text="GESTIONE MAGAZZINO" Theme="MetropolisBlue">
+                </dx:ASPxLabel>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right">
+                <dx:ASPxLabel ID="ASPxLabel9" runat="server" Text="Utente Web:" Theme="Aqua">
+                </dx:ASPxLabel>
+            </td>
+            <td style="text-align: left">
+                <dx:ASPxButtonEdit ID="ASPxButtonEdit_user" runat="server" EnableTheming="True" 
+                    Font-Bold="True" ReadOnly="True" Text="Web User Name" Theme="MetropolisBlue">
+                    <Buttons>
+                        <dx:EditButton ToolTip="Profilo utente" Visible="False">
+                            <Image Url="~/images/user_silhouette.png">
+                            </Image>
+                        </dx:EditButton>
+                        <dx:EditButton ToolTip="Logout">
+                            <Image Url="~/images/logout.png">
+                            </Image>
+                        </dx:EditButton>
+                    </Buttons>
+                    <Border BorderWidth="0px" />
+
+<Border BorderWidth="0px"></Border>
+                </dx:ASPxButtonEdit>
+            </td>
+        </tr>
+           <tr>
+            <td  style="text-align: right">
+                <dx:ASPxLabel ID="ASPxLabel2" runat="server" Text="Cliente:"
+                    Theme="Aqua">
+                </dx:ASPxLabel>
+                &nbsp;</td>
+            <td style="text-align: left">
+                <dx:ASPxLabel ID="lb_selectedClienteMag" runat="server" Font-Bold="True" 
+                    Font-Size="Small">
+                </dx:ASPxLabel>
+            </td>
+        </tr>
+        <tr>
+            <td  style="text-align: right">
+                <dx:ASPxLabel ID="ASPxLabel10" runat="server" Text="Ordine in lavorazione:" 
+                    Theme="Aqua">
+                </dx:ASPxLabel>
+                &nbsp;</td>
+            <td style="text-align: left">
+                <dx:ASPxLabel ID="lb_selectedOrdineMag" runat="server" Font-Bold="True" 
+                    Font-Size="Small">
+                </dx:ASPxLabel>
+            </td>
+        </tr>
+             
+    </table>
+                                    </dx:PanelContent>
+                                 </PanelCollection>
+                                </dx:ASPxCallbackPanel>
+
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 41px; vertical-align: top;">
+                    <dx:ASPxMenu ID="ASPxMenu_Top" runat="server" EnableTheming="True" 
+                        Height="41px" Theme="Office2010Black" Width="100%" 
+                        Font-Size="10pt">
+                        <Paddings PaddingTop="0px" />
+                        <Items>
+                            <dx:MenuItem Name="raccogliordine" NavigateUrl="~/mag/magRaccogliOrdine.aspx" 
+                                Text="Raccogli ordine">
+                                <Image IconID="businessobjects_botask_32x32">
+                                </Image>
+                            </dx:MenuItem>
+                            <dx:MenuItem NavigateUrl="~/mag/magPicking.aspx" Text="Ordine in Picking" 
+                                Name="linkordineinpicking">
+                                <Image IconID="programming_showtestreport_32x32">
+                                </Image>
+                            </dx:MenuItem>
+                            <dx:MenuItem Text="Lista ordini da raccogliere" 
+                                NavigateUrl="~/mag/magOrderToPickList.aspx?t=2&amp;cf=0" 
+                                Name="ordinidaraccogliere">
+                                <Image IconID="chart_chartsshowlegend_32x32">
+                                </Image>
+                            </dx:MenuItem>
+                            <dx:MenuItem Text="Lista ordini in lavorazione" 
+                                NavigateUrl="~/mag/magOrderToPickList.aspx?t=3&amp;cf=0" 
+                                Name="ordiniinlavorazione">
+                                <Image IconID="scheduling_showworktimeonly_32x32">
+                                </Image>
+                            </dx:MenuItem>
+                            <dx:MenuItem Text="Controllo e fatturazione" 
+                                NavigateUrl="~/mag/magOrderToPickList.aspx?t=5&amp;cf=1" 
+                                Name="controlloefatturazione" BeginGroup="True">
+                                <Image IconID="businessobjects_boorderitem_32x32">
+                                </Image>
+		           </dx:MenuItem>
+			    <dx:MenuItem Name="assegnaordini" NavigateUrl="~/mag/magAssegnaOrdini.aspx" 
+                                Text="Assegna ordini">
+				    <Image IconID="businessobjects_boresume_32x32">
+                    </Image>
+				</dx:MenuItem>
+                        </Items>
+                    </dx:ASPxMenu>
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 280px; vertical-align: top;">
+                  <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                                    </td>
+            </tr>
+            <tr>
+                <td style="height: 20px; vertical-align: top; border-top-style: solid; border-top-width: 1px; border-top-color: #00AA00;">
+                    &nbsp;</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

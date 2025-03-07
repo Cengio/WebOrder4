@@ -1,0 +1,801 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Progetti\servisWO_10\WebSite</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/DevExpress.Charts.v15.2.Core.dll">
+      <publishTime>12/16/2016 09:01:58</publishTime>
+    </File>
+    <File Include="bin/DevExpress.CodeParser.v15.2.dll">
+      <publishTime>12/16/2016 09:01:17</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.v15.2.dll">
+      <publishTime>12/16/2016 09:01:23</publishTime>
+    </File>
+    <File Include="bin/DevExpress.DataAccess.v15.2.dll">
+      <publishTime>12/16/2016 09:01:27</publishTime>
+    </File>
+    <File Include="bin/DevExpress.DataAccess.v15.2.UI.dll">
+      <publishTime>12/16/2016 09:01:27</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Office.v15.2.Core.dll">
+      <publishTime>12/16/2016 09:01:43</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Pdf.v15.2.Core.dll">
+      <publishTime>12/16/2016 09:01:43</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Pdf.v15.2.Drawing.dll">
+      <publishTime>12/16/2016 09:01:43</publishTime>
+    </File>
+    <File Include="bin/DevExpress.PivotGrid.v15.2.Core.dll">
+      <publishTime>12/16/2016 09:02:04</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Printing.v15.2.Core.dll">
+      <publishTime>12/16/2016 09:01:44</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v15.2.Core.dll">
+      <publishTime>12/16/2016 09:02:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Sparkline.v15.2.Core.dll">
+      <publishTime>12/16/2016 09:01:46</publishTime>
+    </File>
+    <File Include="bin/DevExpress.SpellChecker.v15.2.Core.dll">
+      <publishTime>12/16/2016 09:01:46</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Utils.v15.2.dll">
+      <publishTime>12/16/2016 09:01:48</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Utils.v15.2.UI.dll">
+      <publishTime>12/16/2016 09:01:51</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxHtmlEditor.v15.2.dll">
+      <publishTime>12/16/2016 09:00:54</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxPivotGrid.v15.2.dll">
+      <publishTime>12/16/2016 09:01:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxScheduler.v15.2.dll">
+      <publishTime>12/16/2016 09:01:07</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxSpellChecker.v15.2.dll">
+      <publishTime>12/16/2016 09:01:07</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxThemes.v15.2.dll">
+      <publishTime>12/16/2016 09:01:11</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxTreeList.v15.2.dll">
+      <publishTime>12/16/2016 09:01:15</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.v15.2.dll">
+      <publishTime>12/16/2016 09:01:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Xpo.v15.2.dll">
+      <publishTime>12/16/2016 09:01:57</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraBars.v15.2.dll">
+      <publishTime>12/16/2016 09:01:58</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v15.2.dll">
+      <publishTime>12/16/2016 09:01:59</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v15.2.Extensions.dll">
+      <publishTime>12/16/2016 09:01:58</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v15.2.Web.dll">
+      <publishTime>12/16/2016 09:00:50</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v15.2.Wizard.dll">
+      <publishTime>12/16/2016 09:02:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraEditors.v15.2.dll">
+      <publishTime>12/16/2016 09:02:01</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGauges.v15.2.Core.dll">
+      <publishTime>12/16/2016 09:02:01</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGauges.v15.2.Presets.dll">
+      <publishTime>12/16/2016 09:02:01</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGrid.v15.2.dll">
+      <publishTime>12/16/2016 09:02:03</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraLayout.v15.2.dll">
+      <publishTime>12/16/2016 09:02:04</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraNavBar.v15.2.dll">
+      <publishTime>12/16/2016 09:02:04</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraPivotGrid.v15.2.dll">
+      <publishTime>12/16/2016 09:02:05</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraPrinting.v15.2.dll">
+      <publishTime>12/16/2016 09:02:05</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v15.2.dll">
+      <publishTime>12/16/2016 09:02:06</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v15.2.Extensions.dll">
+      <publishTime>12/16/2016 09:02:20</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v15.2.Web.dll">
+      <publishTime>12/16/2016 09:02:08</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraRichEdit.v15.2.dll">
+      <publishTime>12/16/2016 09:02:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraScheduler.v15.2.Core.dll">
+      <publishTime>12/16/2016 09:02:22</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraTreeList.v15.2.dll">
+      <publishTime>12/16/2016 09:02:24</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraVerticalGrid.v15.2.dll">
+      <publishTime>12/16/2016 09:02:25</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Charts.Designer.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:50:24</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Dashboard.v15.2.Core.resources.dll">
+      <publishTime>01/09/2017 09:50:16</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Dashboard.v15.2.Web.resources.dll">
+      <publishTime>01/09/2017 09:50:18</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Dashboard.v15.2.Win.resources.dll">
+      <publishTime>01/09/2017 09:50:20</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Data.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:40</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.DataAccess.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:50:24</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.DataAccess.v15.2.UI.resources.dll">
+      <publishTime>01/09/2017 09:50:20</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Diagram.v15.2.Core.resources.dll">
+      <publishTime>01/09/2017 09:50:28</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Map.v15.2.Core.resources.dll">
+      <publishTime>01/09/2017 09:50:26</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Office.v15.2.Core.resources.dll">
+      <publishTime>01/09/2017 09:50:14</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Pdf.v15.2.Core.resources.dll">
+      <publishTime>01/09/2017 09:50:22</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.PivotGrid.v15.2.Core.resources.dll">
+      <publishTime>01/09/2017 09:49:46</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Printing.v15.2.Core.resources.dll">
+      <publishTime>01/09/2017 09:50:14</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.RichEdit.v15.2.Core.resources.dll">
+      <publishTime>01/09/2017 09:50:00</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Snap.v15.2.Core.resources.dll">
+      <publishTime>01/09/2017 09:50:16</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Snap.v15.2.Extensions.resources.dll">
+      <publishTime>01/09/2017 09:50:16</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Snap.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:50:16</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Sparkline.v15.2.Core.resources.dll">
+      <publishTime>01/09/2017 09:50:24</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Spreadsheet.v15.2.Core.resources.dll">
+      <publishTime>01/09/2017 09:50:20</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Utils.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:42</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Utils.v15.2.UI.resources.dll">
+      <publishTime>01/09/2017 09:50:14</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Web.ASPxHtmlEditor.v15.2.resources.dll">
+      <publishTime>01/11/2017 03:22:18</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Web.ASPxRichEdit.v15.2.resources.dll">
+      <publishTime>01/11/2017 03:22:18</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Web.ASPxScheduler.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:50:12</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Web.ASPxSpellChecker.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:50:10</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Web.ASPxSpreadsheet.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:50:12</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Web.ASPxTreeList.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:50:10</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Web.v15.2.resources.dll">
+      <publishTime>01/11/2017 03:22:18</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.Xpo.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:42</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraBars.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:42</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraCharts.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:42</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraCharts.v15.2.Wizard.resources.dll">
+      <publishTime>01/09/2017 09:50:16</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraEditors.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:44</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraGauges.v15.2.Core.resources.dll">
+      <publishTime>01/09/2017 09:50:08</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraGauges.v15.2.Presets.resources.dll">
+      <publishTime>01/09/2017 09:50:06</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraGrid.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:44</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraLayout.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:44</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraNavBar.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:46</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraPdfViewer.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:50:22</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraPivotGrid.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:50:08</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraPrinting.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:46</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraReports.v15.2.Extensions.resources.dll">
+      <publishTime>01/09/2017 09:50:06</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraReports.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:46</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraReports.v15.2.Web.resources.dll">
+      <publishTime>01/09/2017 09:50:12</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraRichEdit.v15.2.Extensions.resources.dll">
+      <publishTime>01/09/2017 09:49:58</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraRichEdit.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:48</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraScheduler.v15.2.Core.resources.dll">
+      <publishTime>01/09/2017 09:49:50</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraScheduler.v15.2.Extensions.resources.dll">
+      <publishTime>01/09/2017 09:49:52</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraScheduler.v15.2.Reporting.resources.dll">
+      <publishTime>01/09/2017 09:49:58</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraScheduler.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:48</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraSpellChecker.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:48</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraSpreadsheet.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:50:24</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraTreeList.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:50</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraVerticalGrid.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:50</publishTime>
+    </File>
+    <File Include="bin/it/DevExpress.XtraWizard.v15.2.resources.dll">
+      <publishTime>01/09/2017 09:49:52</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>03/29/2021 16:39:35</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>06/21/2021 17:13:27</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/21/2021 17:13:28</publishTime>
+    </File>
+    <File Include="bin/servisReports.dll">
+      <publishTime>06/25/2021 12:44:02</publishTime>
+    </File>
+    <File Include="bin/servisReports.pdb">
+      <publishTime>06/25/2021 12:44:02</publishTime>
+    </File>
+    <File Include="bin/servisWO.dll">
+      <publishTime>06/25/2021 12:49:28</publishTime>
+    </File>
+    <File Include="bin/servisWO.dll.config">
+      <publishTime>06/24/2021 10:15:15</publishTime>
+    </File>
+    <File Include="bin/servisWO.pdb">
+      <publishTime>06/25/2021 12:49:28</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>06/21/2021 17:13:27</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>06/21/2021 17:13:26</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>06/21/2021 17:13:27</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>06/21/2021 17:13:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>06/21/2021 17:13:27</publishTime>
+    </File>
+    <File Include="bin/Telerik.Reporting.dll">
+      <publishTime>06/20/2018 19:09:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Reporting.pdb">
+      <publishTime>06/20/2018 19:09:30</publishTime>
+    </File>
+    <File Include="bin/Telerik.Reporting.Services.WebApi.dll">
+      <publishTime>06/20/2018 19:09:42</publishTime>
+    </File>
+    <File Include="bin/Telerik.Reporting.Services.WebApi.pdb">
+      <publishTime>06/20/2018 19:09:42</publishTime>
+    </File>
+    <File Include="bin/Telerik.Reporting.XpsRendering.dll">
+      <publishTime>06/20/2018 19:09:36</publishTime>
+    </File>
+    <File Include="bin/Telerik.Reporting.XpsRendering.pdb">
+      <publishTime>06/20/2018 19:09:36</publishTime>
+    </File>
+    <File Include="bin/Telerik.ReportViewer.Html5.WebForms.dll">
+      <publishTime>06/20/2018 19:10:34</publishTime>
+    </File>
+    <File Include="bin/Telerik.ReportViewer.Html5.WebForms.pdb">
+      <publishTime>06/20/2018 19:10:34</publishTime>
+    </File>
+    <File Include="CustomerDetailLanding.aspx">
+      <publishTime>03/09/2020 10:03:25</publishTime>
+    </File>
+    <File Include="customerDetails.aspx">
+      <publishTime>05/21/2018 13:10:16</publishTime>
+    </File>
+    <File Include="customerList.aspx">
+      <publishTime>05/21/2018 13:10:16</publishTime>
+    </File>
+    <File Include="default.Master">
+      <publishTime>05/29/2020 22:11:35</publishTime>
+    </File>
+    <File Include="err/err403.aspx">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/21/2018 13:10:16</publishTime>
+    </File>
+    <File Include="hardcoded/deafultPDFdir.txt">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/accessdenied.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/1437297494/BottomLeftCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/1437297494/BottomRightCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/1437297494/HeaderContent.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/1437297494/HeaderLeftEdge.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/1437297494/HeaderRightEdge.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/1437297494/NoHeaderTopLeftCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/1437297494/NoHeaderTopRightCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/1437297494/TopLeftCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/1437297494/TopRightCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/2071818824/BottomLeftCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/2071818824/BottomRightCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/2071818824/HeaderContent.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/2071818824/HeaderLeftEdge.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/2071818824/HeaderRightEdge.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/2071818824/NoHeaderTopLeftCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/2071818824/NoHeaderTopRightCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/2071818824/TopLeftCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/2071818824/TopRightCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/505734883/BottomLeftCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/505734883/BottomRightCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/505734883/HeaderContent.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/505734883/HeaderLeftEdge.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/505734883/HeaderRightEdge.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/505734883/NoHeaderTopLeftCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/505734883/NoHeaderTopRightCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/505734883/TopLeftCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/ASPxRoundPanel/505734883/TopRightCorner.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/cancelFilter.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/cartrow.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/cartrowsmall.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/cartrowsmall_off.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/cartrow_off.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/cartTitle.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/carttoorder.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/cart_big.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/cmpDet.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/Co.gif">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/custom/logo_giorgini.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/custom/logo_naturalma.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/custom/logo_servis.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/delCart.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/delcartrowsmall.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/delcartrowsmall_off.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/delCart_off.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/Ex.gif">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/interazioneAlert16.gif">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/interazioneAlert32.gif">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/interazioneClock32.gif">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/Keys_login.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/login_headerpng.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/logout.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/logo_giorgini.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/magazzinobig.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/magelabora.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/maginlavorazione.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/navbar/campagne.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/navbar/carrello.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/navbar/customer.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/navbar/magazzino.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/navbar/ordini.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/navbar/product.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/navbar/promo.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/navbar/Settings.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/navbar/sidebarOFF.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/navbar/sidebarON.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/navbar/webusers.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/orderDET.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/orderMOD.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/orderMOD_off.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/orderNEW.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/orderNEW_off.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/pdfdocument.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/pdfdocumentOFF.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/pickKO.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/pickOK.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/produzioneMain.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/promoalert.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/promoSegmenti.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/question16.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/question32.gif">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/question32.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/Save.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/saveandmag.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/updCart.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/user.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/user_add.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/user_info.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/user_off.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/user_select.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/user_select_off.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/user_silhouette.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/zeroPrice.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/zeroPriceApp.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/zeroPriceDel.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/zeropricesmall.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/zeropricesmall_off.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="images/zeroPrice_off.png">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>05/21/2018 13:10:16</publishTime>
+    </File>
+    <File Include="Logs/weborder_empty.log">
+      <publishTime>06/25/2021 12:50:20</publishTime>
+    </File>
+    <File Include="mag/magAssegnaOrdini.aspx">
+      <publishTime>04/08/2021 15:45:12</publishTime>
+    </File>
+    <File Include="mag/magazzino.Master">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="mag/magEndPicking.aspx">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="mag/magOrderToPickList.aspx">
+      <publishTime>09/01/2020 11:55:46</publishTime>
+    </File>
+    <File Include="mag/magPicking.aspx">
+      <publishTime>03/09/2020 10:03:24</publishTime>
+    </File>
+    <File Include="mag/magRaccogliOrdine.aspx">
+      <publishTime>06/21/2021 17:13:28</publishTime>
+    </File>
+    <File Include="mng/binContent.aspx">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="mng/parametriSito.aspx">
+      <publishTime>03/09/2020 10:03:24</publishTime>
+    </File>
+    <File Include="newcustomerAdd.aspx">
+      <publishTime>05/21/2018 13:10:16</publishTime>
+    </File>
+    <File Include="newcustomerList.aspx">
+      <publishTime>05/21/2018 13:10:16</publishTime>
+    </File>
+    <File Include="newcustomerOrderList.aspx">
+      <publishTime>05/21/2018 13:10:16</publishTime>
+    </File>
+    <File Include="orderDetails.aspx">
+      <publishTime>06/21/2021 17:13:28</publishTime>
+    </File>
+    <File Include="orderImport.aspx">
+      <publishTime>05/29/2019 09:03:13</publishTime>
+    </File>
+    <File Include="orderList.aspx">
+      <publishTime>06/21/2021 17:13:28</publishTime>
+    </File>
+    <File Include="orderListNav.aspx">
+      <publishTime>06/21/2021 17:13:28</publishTime>
+    </File>
+    <File Include="orderNew.aspx">
+      <publishTime>05/29/2020 22:11:35</publishTime>
+    </File>
+    <File Include="orderReport.aspx">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="orderReportDownload.aspx">
+      <publishTime>03/09/2020 10:03:25</publishTime>
+    </File>
+    <File Include="orderReportTR.aspx">
+      <publishTime>06/21/2021 17:23:25</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/21/2021 17:13:28</publishTime>
+    </File>
+    <File Include="pro/proConfirmPrenotazioni.aspx">
+      <publishTime>03/09/2020 10:03:25</publishTime>
+    </File>
+    <File Include="pro/proConfirmProduction.aspx">
+      <publishTime>03/09/2020 10:03:24</publishTime>
+    </File>
+    <File Include="pro/produzione.Master">
+      <publishTime>03/09/2020 10:03:24</publishTime>
+    </File>
+    <File Include="productDetails.aspx">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="productFinder.aspx">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="quickCart.aspx">
+      <publishTime>05/29/2020 22:11:35</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.6.2-vsdoc.js">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.6.2.js">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.6.2.min.js">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.14.js">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.14.min.js">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="TimeoutControl.ascx">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="usermyprofile.aspx">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="usr/userAudit.aspx">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="usr/userMng.aspx">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="usr/userProfileMng.aspx">
+      <publishTime>05/21/2018 13:10:17</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/25/2021 12:47:49</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
