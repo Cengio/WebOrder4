@@ -3,4 +3,14 @@ bin/
 obj/ 
 Backup/ 
 servisWO/hardcoded/ 
-"servisWO.zip" 
+
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+*.user
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
