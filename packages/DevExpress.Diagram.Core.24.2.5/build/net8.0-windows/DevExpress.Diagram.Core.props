@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+</Project>

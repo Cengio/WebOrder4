@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="login.aspx.vb" Inherits="servisWO.login" %>
 
-<%@ Register assembly="DevExpress.Web.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+<%@ Register assembly="DevExpress.Web.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -167,7 +168,7 @@
     <dx:ASPxPopupControl ID="ASPxPopupControl1" runat="server" 
         HeaderText="Sistema in manutenzione" Modal="True" 
         PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" 
-       Theme="Metropolis">
+       Theme="MetropolisBlue">
         <ContentCollection>
 <dx:PopupControlContentControl runat="server" SupportsDisabledAttribute="True">
     Impossibile raggiungere il database.</dx:PopupControlContentControl>

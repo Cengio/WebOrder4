@@ -3,8 +3,8 @@
     <style type="text/css">
 
 
-.dxpcLite_MetropolisBlue .dxpc-header,
-.dxdpLite_MetropolisBlue .dxpc-header 
+.dxpcLite_Metropolis .dxpc-header,
+.dxdpLite_Metropolis .dxpc-header 
 {
 	color: #0072C6;
 	font-size: 1.66em;

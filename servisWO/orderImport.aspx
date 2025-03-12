@@ -57,7 +57,7 @@
     <dx:ASPxPopupControl ID="popupOrdineBloccato" runat="server"
         ClientInstanceName="popupOrdineBloccato" Font-Size="Large"
         HeaderText="Attenzione" Height="160px" Modal="True"
-        PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" Style="text-align: left" Theme="Metropolis"
+        PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" Style="text-align: left" Theme="MetropolisBlue"
         Width="400px">
         <ClientSideEvents Closing="function(s, e) {	refreshGrid(); }" />
         <ContentCollection>
@@ -70,7 +70,7 @@
         <dx:ASPxPopupControl ID="popupClienteNonTrovato" runat="server"
         ClientInstanceName="popupClienteNonTrovato" Font-Size="Large"
         HeaderText="Attenzione" Height="160px" Modal="True"
-        PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" Style="text-align: left" Theme="Metropolis"
+        PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" Style="text-align: left" Theme="MetropolisBlue"
         Width="400px">
         <ContentCollection>
             <dx:PopupControlContentControl runat="server" SupportsDisabledAttribute="True">

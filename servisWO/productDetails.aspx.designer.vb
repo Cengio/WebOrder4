@@ -1,6 +1,6 @@
 ﻿'------------------------------------------------------------------------------
 ' <generato automaticamente>
-'     Codice generato da uno strumento.
+'     Questo codice è stato generato da uno strumento.
 '
 '     Le modifiche a questo file possono causare un comportamento non corretto e verranno perse se
 '     il codice viene rigenerato. 
@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class productDetails
-    
+
     '''<summary>
     '''Controllo lb_cTitolo.
     '''</summary>
@@ -21,7 +21,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_cTitolo As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo hl_tornaRicerca.
     '''</summary>
@@ -30,7 +30,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents hl_tornaRicerca As Global.DevExpress.Web.ASPxHyperLink
-    
+
     '''<summary>
     '''Controllo ASPxFormLayout_proDet.
     '''</summary>
@@ -39,7 +39,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents ASPxFormLayout_proDet As Global.DevExpress.Web.ASPxFormLayout
-    
+
     '''<summary>
     '''Controllo imgProdotto.
     '''</summary>
@@ -48,7 +48,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents imgProdotto As Global.DevExpress.Web.ASPxImage
-    
+
     '''<summary>
     '''Controllo linkTabellaValori.
     '''</summary>
@@ -57,7 +57,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents linkTabellaValori As Global.DevExpress.Web.ASPxHyperLink
-    
+
     '''<summary>
     '''Controllo imgSenzaLattosio.
     '''</summary>
@@ -66,7 +66,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents imgSenzaLattosio As Global.DevExpress.Web.ASPxImage
-    
+
     '''<summary>
     '''Controllo imgSenzaGlutine.
     '''</summary>
@@ -75,7 +75,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents imgSenzaGlutine As Global.DevExpress.Web.ASPxImage
-    
+
     '''<summary>
     '''Controllo imgVegano.
     '''</summary>
@@ -84,7 +84,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents imgVegano As Global.DevExpress.Web.ASPxImage
-    
+
     '''<summary>
     '''Controllo lit_bollini_info.
     '''</summary>
@@ -93,7 +93,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lit_bollini_info As Global.System.Web.UI.WebControls.Literal
-    
+
     '''<summary>
     '''Controllo lb_codicearticolo.
     '''</summary>
@@ -102,7 +102,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_codicearticolo As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo ASPxCallbackPanel_addToCart.
     '''</summary>
@@ -111,7 +111,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents ASPxCallbackPanel_addToCart As Global.DevExpress.Web.ASPxCallbackPanel
-    
+
     '''<summary>
     '''Controllo lb_dispoTot.
     '''</summary>
@@ -120,7 +120,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_dispoTot As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lb_qtaCarrello.
     '''</summary>
@@ -129,7 +129,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_qtaCarrello As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lb_descrizione.
     '''</summary>
@@ -138,7 +138,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_descrizione As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lb_descrizione2.
     '''</summary>
@@ -147,7 +147,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_descrizione2 As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lb_farmadati.
     '''</summary>
@@ -156,7 +156,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_farmadati As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lb_EAN.
     '''</summary>
@@ -165,7 +165,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_EAN As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lb_formato.
     '''</summary>
@@ -174,7 +174,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_formato As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lb_confezione.
     '''</summary>
@@ -183,7 +183,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_confezione As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lb_composizione.
     '''</summary>
@@ -192,7 +192,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_composizione As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lb_grado_alcolico.
     '''</summary>
@@ -201,7 +201,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_grado_alcolico As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lb_dosi.
     '''</summary>
@@ -210,7 +210,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_dosi As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lb_bollino.
     '''</summary>
@@ -219,7 +219,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_bollino As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lb_obbiettivo.
     '''</summary>
@@ -228,7 +228,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_obbiettivo As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lb_avvertenza.
     '''</summary>
@@ -237,7 +237,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_avvertenza As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lit_infoaggiuntive.
     '''</summary>
@@ -246,7 +246,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lit_infoaggiuntive As Global.System.Web.UI.WebControls.Literal
-    
+
     '''<summary>
     '''Controllo lb_ingrediente_rilevante.
     '''</summary>
@@ -255,7 +255,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_ingrediente_rilevante As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lit_info_commerciali.
     '''</summary>
@@ -264,7 +264,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lit_info_commerciali As Global.System.Web.UI.WebControls.Literal
-    
+
     '''<summary>
     '''Controllo lb_modouso.
     '''</summary>
@@ -273,7 +273,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_modouso As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lit_ingredienti.
     '''</summary>
@@ -282,7 +282,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lit_ingredienti As Global.System.Web.UI.WebControls.Literal
-    
+
     '''<summary>
     '''Controllo lb_legenda.
     '''</summary>
@@ -291,7 +291,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lb_legenda As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lit_addettisettore.
     '''</summary>
@@ -300,7 +300,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lit_addettisettore As Global.System.Web.UI.WebControls.Literal
-    
+
     '''<summary>
     '''Controllo WebChartControl1.
     '''</summary>
@@ -309,7 +309,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents WebChartControl1 As Global.DevExpress.XtraCharts.Web.WebChartControl
-    
+
     '''<summary>
     '''Controllo ASPxImage_tabella.
     '''</summary>
@@ -318,7 +318,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents ASPxImage_tabella As Global.DevExpress.Web.ASPxImage
-    
+
     '''<summary>
     '''Controllo SqlDataSource_apparati.
     '''</summary>
@@ -327,7 +327,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents SqlDataSource_apparati As Global.System.Web.UI.WebControls.SqlDataSource
-    
+
     '''<summary>
     '''Controllo SqlDataSource_organi.
     '''</summary>
@@ -336,7 +336,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents SqlDataSource_organi As Global.System.Web.UI.WebControls.SqlDataSource
-    
+
     '''<summary>
     '''Controllo SqlDataSource_sintomi.
     '''</summary>
@@ -345,7 +345,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents SqlDataSource_sintomi As Global.System.Web.UI.WebControls.SqlDataSource
-    
+
     '''<summary>
     '''Controllo ASPxPopupControl1.
     '''</summary>
@@ -354,7 +354,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents ASPxPopupControl1 As Global.DevExpress.Web.ASPxPopupControl
-    
+
     '''<summary>
     '''Controllo ASPxCallbackPanel1.
     '''</summary>
@@ -363,7 +363,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents ASPxCallbackPanel1 As Global.DevExpress.Web.ASPxCallbackPanel
-    
+
     '''<summary>
     '''Controllo ASPxGridView_organi.
     '''</summary>
@@ -372,7 +372,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents ASPxGridView_organi As Global.DevExpress.Web.ASPxGridView
-    
+
     '''<summary>
     '''Controllo ASPxPopupControl_tabella.
     '''</summary>
@@ -381,7 +381,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents ASPxPopupControl_tabella As Global.DevExpress.Web.ASPxPopupControl
-    
+
     '''<summary>
     '''Controllo ASPxPopupControl_largeImg.
     '''</summary>
@@ -390,7 +390,7 @@ Partial Public Class productDetails
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents ASPxPopupControl_largeImg As Global.DevExpress.Web.ASPxPopupControl
-    
+
     '''<summary>
     '''Controllo ASPxImage_big.
     '''</summary>

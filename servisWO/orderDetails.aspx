@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/default.Master" CodeBehind="orderDetails.aspx.vb" Inherits="servisWO.orderDetails" %>
 
-<%@ Register assembly="DevExpress.Web.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+<%@ Register assembly="DevExpress.Web.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     </asp:Content>
@@ -342,7 +342,7 @@
     <dx:ASPxPopupControl ID="popupOrdineBloccato" runat="server"
         ClientInstanceName="popupOrdineBloccato" Font-Size="Large"
         HeaderText="Attenzione" Height="160px" Modal="True"
-        PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" Style="text-align: left" Theme="Metropolis"
+        PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" Style="text-align: left" Theme="MetropolisBlue"
         Width="400px">
         <ClientSideEvents Closing="function(s, e) {
 	//window.location.reload();
@@ -1210,7 +1210,7 @@
      <table id="tabMancanti" runat="server" style="width: 100%; margin-top: 10px;" width="100%">
          <tr>
              <td>
-                <dx:ASPxGridView ID="gridMancanti" runat="server" AutoGenerateColumns="False" ClientInstanceName="gridMancanti" EnableTheming="True" Theme="Metropolis" Width="100%" Settings-ShowPreview="False" 
+                <dx:ASPxGridView ID="gridMancanti" runat="server" AutoGenerateColumns="False" ClientInstanceName="gridMancanti" EnableTheming="True" Theme="MetropolisBlue" Width="100%" Settings-ShowPreview="False" 
                     Settings-ShowTitlePanel="True" SettingsText-Title="Articoli mancanti" Styles-TitlePanel-BackColor="#FFFFFF" Styles-TitlePanel-HorizontalAlign="Left" Styles-TitlePanel-ForeColor="#333333" >
                      <SettingsPager Visible="False" Mode="ShowAllRecords">
                      </SettingsPager>

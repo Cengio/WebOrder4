@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="orderReport.aspx.vb" Inherits="servisWO.orderReport" %>
 
-<%@ Register assembly="DevExpress.XtraReports.v21.2.Web.WebForms, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.XtraReports.Web" tagprefix="dx" %>
+<%@ Register assembly="DevExpress.XtraReports.v24.2.Web.WebForms, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.XtraReports.Web" tagprefix="dx" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 

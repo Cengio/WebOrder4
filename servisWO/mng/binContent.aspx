@@ -13,12 +13,12 @@
     <dx:ASPxLabel ID="lb_cTitolo" runat="server" Font-Bold="True" 
     Font-Size="Medium" ForeColor="#FF8800" 
     Text="gestione bin code" 
-    Theme="Metropolis">
+    Theme="MetropolisBlue">
     </dx:ASPxLabel>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <dx:ASPxGridView ID="gridBinCode" runat="server" AutoGenerateColumns="False" 
-    EnableTheming="True" KeyFieldName="BinCode" Theme="Metropolis" Width="100%">
+    EnableTheming="True" KeyFieldName="BinCode" Theme="MetropolisBlue" Width="100%">
     <Columns>
         <dx:GridViewCommandColumn VisibleIndex="0" Width="40px" ShowEditButton="True"/>
         <dx:GridViewDataTextColumn Caption="Bin Code" FieldName="BinCode" 
@@ -36,7 +36,7 @@
                 <dx:ASPxUploadControl ID="uploadBinImage" runat="server" 
                     onfileuploadcomplete="uploadBinImage_FileUploadComplete" 
                     ShowClearFileSelectionButton="False" ShowProgressPanel="True" 
-                    Theme="Metropolis" UploadMode="Auto" Width="100%">
+                    Theme="MetropolisBlue" UploadMode="Auto" Width="100%">
                     <ClientSideEvents FileUploadComplete="OnFileUploadComplete" 
                         TextChanged="OnUploadTextChanged" />
                     <CancelButton Text="">

@@ -1,6 +1,6 @@
 ﻿'------------------------------------------------------------------------------
 ' <generato automaticamente>
-'     Codice generato da uno strumento.
+'     Questo codice è stato generato da uno strumento.
 '
 '     Le modifiche a questo file possono causare un comportamento non corretto e verranno perse se
 '     il codice viene rigenerato. 
@@ -29,7 +29,7 @@ Partial Public Class orderReport
     '''Campo generato automaticamente.
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
-    Protected WithEvents ReportToolbar1 As Global.DevExpress.XtraReports.Web.ReportToolbar
+    'Protected WithEvents ReportToolbar1 As Global.DevExpress.XtraReports.Web.ReportToolbar
 
     '''<summary>
     '''Controllo ReportViewer1.
@@ -38,5 +38,5 @@ Partial Public Class orderReport
     '''Campo generato automaticamente.
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
-    Protected WithEvents ReportViewer1 As Global.DevExpress.XtraReports.Web.ReportViewer
+    'Protected WithEvents ReportViewer1 As Global.DevExpress.XtraReports.Web.ReportViewer
 End Class

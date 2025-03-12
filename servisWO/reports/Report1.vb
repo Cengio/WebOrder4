@@ -1,6 +1,5 @@
 Imports System.ComponentModel
 Imports System.Drawing
-Imports System.Windows.Forms
 Imports Telerik.Reporting
 Imports Telerik.Reporting.Drawing
 

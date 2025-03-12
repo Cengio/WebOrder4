@@ -1,6 +1,6 @@
 ﻿'------------------------------------------------------------------------------
 ' <generato automaticamente>
-'     Codice generato da uno strumento.
+'     Questo codice è stato generato da uno strumento.
 '
 '     Le modifiche a questo file possono causare un comportamento non corretto e verranno perse se
 '     il codice viene rigenerato. 
@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class magRaccogliOrdine
-    
+
     '''<summary>
     '''Controllo ASPxFormLayout1.
     '''</summary>
@@ -21,7 +21,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents ASPxFormLayout1 As Global.DevExpress.Web.ASPxFormLayout
-    
+
     '''<summary>
     '''Controllo btnCarica.
     '''</summary>
@@ -30,7 +30,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents btnCarica As Global.DevExpress.Web.ASPxButton
-    
+
     '''<summary>
     '''Controllo btnInizia.
     '''</summary>
@@ -39,7 +39,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents btnInizia As Global.DevExpress.Web.ASPxButton
-    
+
     '''<summary>
     '''Controllo btnStampa.
     '''</summary>
@@ -48,7 +48,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents btnStampa As Global.DevExpress.Web.ASPxButton
-    
+
     '''<summary>
     '''Controllo btnSospendi.
     '''</summary>
@@ -57,7 +57,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents btnSospendi As Global.DevExpress.Web.ASPxButton
-    
+
     '''<summary>
     '''Controllo lbAvviso.
     '''</summary>
@@ -66,7 +66,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lbAvviso As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo ASPxFormLayout2.
     '''</summary>
@@ -75,7 +75,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents ASPxFormLayout2 As Global.DevExpress.Web.ASPxFormLayout
-    
+
     '''<summary>
     '''Controllo lbNrOrdine.
     '''</summary>
@@ -84,7 +84,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lbNrOrdine As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lbDataOrdine.
     '''</summary>
@@ -93,7 +93,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lbDataOrdine As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lbCodiceCliente.
     '''</summary>
@@ -102,7 +102,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lbCodiceCliente As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lbRagioneSociale.
     '''</summary>
@@ -111,7 +111,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lbRagioneSociale As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo lbOperatoreCreazione.
     '''</summary>
@@ -120,7 +120,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents lbOperatoreCreazione As Global.DevExpress.Web.ASPxLabel
-    
+
     '''<summary>
     '''Controllo grid.
     '''</summary>
@@ -129,7 +129,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents grid As Global.DevExpress.Web.ASPxGridView
-    
+
     '''<summary>
     '''Controllo popupOrdineOccupato.
     '''</summary>
@@ -138,7 +138,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents popupOrdineOccupato As Global.DevExpress.Web.ASPxPopupControl
-    
+
     '''<summary>
     '''Controllo btnOKordineOccupato.
     '''</summary>
@@ -147,7 +147,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents btnOKordineOccupato As Global.DevExpress.Web.ASPxButton
-    
+
     '''<summary>
     '''Controllo ASPxLoadingPanel1.
     '''</summary>
@@ -156,7 +156,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents ASPxLoadingPanel1 As Global.DevExpress.Web.ASPxLoadingPanel
-    
+
     '''<summary>
     '''Controllo ASPxCallback_report.
     '''</summary>
@@ -165,7 +165,7 @@ Partial Public Class magRaccogliOrdine
     '''Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
     '''</remarks>
     Protected WithEvents ASPxCallback_report As Global.DevExpress.Web.ASPxCallback
-    
+
     '''<summary>
     '''Controllo popupReport.
     '''</summary>

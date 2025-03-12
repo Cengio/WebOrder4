@@ -125,11 +125,11 @@
     <dx:ASPxLabel ID="lb_cTitolo" runat="server" Font-Bold="True" 
     Font-Size="Medium" ForeColor="#FF8800" 
     Text="gestione utenti" 
-    Theme="Metropolis">
+    Theme="MetropolisBlue">
     </dx:ASPxLabel>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <dx:ASPxGridView ID="gridUsers" runat="server" AutoGenerateColumns="False" EnableTheming="True" KeyFieldName="User Code" Theme="Metropolis" Width="100%" ClientInstanceName="gridUsers">
+    <dx:ASPxGridView ID="gridUsers" runat="server" AutoGenerateColumns="False" EnableTheming="True" KeyFieldName="User Code" Theme="MetropolisBlue" Width="100%" ClientInstanceName="gridUsers">
         <ClientSideEvents EndCallback="saveCallbackComplete" />
         <SettingsEditing EditFormColumnCount="1" Mode="PopupEditForm">
         </SettingsEditing>
@@ -217,7 +217,7 @@
                     <table>
                         <tr>
                             <td>
-                                <dx:ASPxRatingControl ID="ratingControl" runat="server" ReadOnly="true" ItemCount="5" Value="0" ClientInstanceName="ratingControl" Theme="Metropolis" />
+                                <dx:ASPxRatingControl ID="ratingControl" runat="server" ReadOnly="true" ItemCount="5" Value="0" ClientInstanceName="ratingControl" Theme="MetropolisBlue" />
                             </td>
                             <td style="padding-left: 5px; width: 100px">
                                 <dx:ASPxLabel ID="ratingLabel" runat="server" ClientInstanceName="ratingLabel" Text="" />
@@ -237,7 +237,7 @@
         PopupVerticalAlign="WindowCenter" CloseAction="CloseButton" Modal="True" 
          AllowDragging="True" AppearAfter="500" AutoUpdatePosition="True" 
         ClientInstanceName="popupesito"  
-        Theme="Metropolis" HeaderText="Esito operazione" Width="360px">
+        Theme="MetropolisBlue" HeaderText="Esito operazione" Width="360px">
         <ContentStyle Font-Size="Medium">
         </ContentStyle>
         <ContentCollection>

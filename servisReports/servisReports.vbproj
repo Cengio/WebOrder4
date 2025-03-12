@@ -19,6 +19,8 @@
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
     <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -53,69 +55,10 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Charts.v21.2.Core">
-      
-    </Reference>
-    <Reference Include="DevExpress.CodeParser.v21.2">
-      
-    </Reference>
-    <Reference Include="DevExpress.Data.v21.2">
-      
-    </Reference>
-    <Reference Include="DevExpress.DataAccess.v21.2">
-      
-    </Reference>
-    <Reference Include="DevExpress.Office.v21.2.Core">
-      
-    </Reference>
-    <Reference Include="DevExpress.PivotGrid.v21.2.Core">
-      
-    </Reference>
-    <Reference Include="DevExpress.Pdf.v21.2.Core">
-      
-    </Reference>
-    <Reference Include="DevExpress.RichEdit.v21.2.Export">
-      
-    </Reference>
-    <Reference Include="DevExpress.Printing.v21.2.Core">
-      
-    </Reference>
-    <Reference Include="DevExpress.RichEdit.v21.2.Core">
-      
-    </Reference>
-    <Reference Include="DevExpress.Sparkline.v21.2.Core">
-      
-    </Reference>
-    <Reference Include="DevExpress.Data.Desktop.v21.2">
-      
-    </Reference>
-    <Reference Include="DevExpress.Utils.v21.2">
-      
-    </Reference>
-    <Reference Include="DevExpress.Xpo.v21.2">
-      
-    </Reference>
-    <Reference Include="DevExpress.XtraCharts.v21.2">
-      
-    </Reference>
-    <Reference Include="DevExpress.XtraCharts.v21.2.Wizard">
-      
-    </Reference>
-    <Reference Include="DevExpress.XtraGauges.v21.2.Core">
-      
-    </Reference>
-    <Reference Include="DevExpress.XtraPrinting.v21.2">
-      
-    </Reference>
-    <Reference Include="DevExpress.XtraReports.v21.2">
-      
-    </Reference>
-    <Reference Include="DevExpress.XtraReports.v21.2.Extensions">
-      
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -174,6 +117,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="bin\bin.7z" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -185,9 +129,61 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Questo progetto fa riferimento a uno o più pacchetti NuGet che non sono presenti in questo computer. Usare lo strumento di ripristino dei pacchetti NuGet per scaricarli. Per altre informazioni, vedere http://go.microsoft.com/fwlink/?LinkID=322105. Il file mancante è {0}.</ErrorText>
+    </PropertyGroup>
+  </Target>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Charts" />
+    <PackageReference Include="DevExpress.Charts.Core" />
+    <PackageReference Include="DevExpress.Charts.Core.de" />
+    <PackageReference Include="DevExpress.Charts.de" />
+    <PackageReference Include="DevExpress.CodeParser" />
+    <PackageReference Include="DevExpress.CodeParser.de" />
+    <PackageReference Include="DevExpress.Data" />
+    <PackageReference Include="DevExpress.Data.de" />
+    <PackageReference Include="DevExpress.DataAccess" />
+    <PackageReference Include="DevExpress.DataAccess.de" />
+    <PackageReference Include="DevExpress.DataVisualization.Core" />
+    <PackageReference Include="DevExpress.DataVisualization.Core.de" />
+    <PackageReference Include="DevExpress.Drawing" />
+    <PackageReference Include="DevExpress.Drawing.de" />
+    <PackageReference Include="DevExpress.Gauges.Core" />
+    <PackageReference Include="DevExpress.Gauges.Core.de" />
+    <PackageReference Include="DevExpress.Office.Core" />
+    <PackageReference Include="DevExpress.Office.Core.de" />
+    <PackageReference Include="DevExpress.Pdf.Core" />
+    <PackageReference Include="DevExpress.Pdf.Core.de" />
+    <PackageReference Include="DevExpress.Pdf.Drawing" />
+    <PackageReference Include="DevExpress.Pdf.Drawing.de" />
+    <PackageReference Include="DevExpress.PivotGrid.Core" />
+    <PackageReference Include="DevExpress.PivotGrid.Core.de" />
+    <PackageReference Include="DevExpress.Printing.Core" />
+    <PackageReference Include="DevExpress.Printing.Core.de" />
+    <PackageReference Include="DevExpress.Reporting.Core" />
+    <PackageReference Include="DevExpress.Reporting.Core.de" />
+    <PackageReference Include="DevExpress.RichEdit.Core" />
+    <PackageReference Include="DevExpress.RichEdit.Core.de" />
+    <PackageReference Include="DevExpress.RichEdit.Export" />
+    <PackageReference Include="DevExpress.RichEdit.Export.de" />
+    <PackageReference Include="DevExpress.Sparkline.Core" />
+    <PackageReference Include="DevExpress.Sparkline.Core.de" />
+    <PackageReference Include="DevExpress.Xpo" />
+    <PackageReference Include="DevExpress.Xpo.de" />
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" />
+    <PackageReference Include="System.Buffers" />
+    <PackageReference Include="System.Memory" />
+    <PackageReference Include="System.Numerics.Vectors" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" />
+    <PackageReference Include="System.Text.Encodings.Web" />
+    <PackageReference Include="System.Text.Json" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" />
+    <PackageReference Include="System.ValueTuple" />
+  </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -24,11 +24,11 @@
     <dx:ASPxLabel ID="lb_cTitolo" runat="server" Font-Bold="True" 
     Font-Size="Medium" ForeColor="#FF8800" 
     Text="gestione profili utente" 
-    Theme="Metropolis">
+    Theme="MetropolisBlue">
     </dx:ASPxLabel>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <dx:ASPxGridView ID="grid_Profiles" runat="server" AutoGenerateColumns="False" EnableTheming="True" KeyFieldName="idProfile" Theme="Metropolis" Width="100%" ClientInstanceName="gridProfiles">
+    <dx:ASPxGridView ID="grid_Profiles" runat="server" AutoGenerateColumns="False" EnableTheming="True" KeyFieldName="idProfile" Theme="MetropolisBlue" Width="100%" ClientInstanceName="gridProfiles">
         <SettingsPager Visible="False">
         </SettingsPager>
         <SettingsEditing EditFormColumnCount="1" Mode="PopupEditForm">
@@ -62,7 +62,7 @@
         <ClientSideEvents EndCallback="gridProfiles_EndCallback" />
     </dx:ASPxGridView>
 
-    <dx:ASPxPopupControl ID="popupProfiloInUso" runat="server" HeaderText="Profilo in uso" Modal="True" PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" Theme="Metropolis" ClientInstanceName="popupProfiloInUso">
+    <dx:ASPxPopupControl ID="popupProfiloInUso" runat="server" HeaderText="Profilo in uso" Modal="True" PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" Theme="MetropolisBlue" ClientInstanceName="popupProfiloInUso">
         <ContentCollection>
 <dx:PopupControlContentControl runat="server">Impossibile eliminare il profilo. Risulta associato ad un utente.</dx:PopupControlContentControl>
 </ContentCollection>

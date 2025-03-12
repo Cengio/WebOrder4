@@ -26,7 +26,7 @@ Public Class productDetails
 
     Private Sub loadProductData()
         Try
-            Dim dm As New DataManager
+            Dim dm As New datamanager
             Dim pdet As DataTable = dm.GetItemDetails(Session("codiceArticolodettagli"))
             If pdet.Rows.Count > 0 Then
                 lb_codicearticolo.Text = pdet.Rows(0).Item("CodiceArticolo").ToString
@@ -167,7 +167,7 @@ Public Class productDetails
             'MsgBox(ex.Message)
             Throw New Exception(ex.Message)
         End Try
-      
+
     End Sub
 
 
@@ -222,15 +222,16 @@ Public Class productDetails
         End If
     End Sub
 
-    Protected Sub WebChartControl1_CustomDrawSeriesPoint(sender As Object, e As DevExpress.XtraCharts.CustomDrawSeriesPointEventArgs) Handles WebChartControl1.CustomDrawSeriesPoint
-        Dim point As SeriesPoint = e.SeriesPoint
-        If Not point Is Nothing Then
-            Dim rowView As DataRowView = CType(point.Tag, DataRowView)
-            Dim s As String = rowView("nome_Livello1").ToString()
-            e.LabelText = s
-            e.Series.ToolTipPointPattern = "{V}%"
-        End If
-    End Sub
+    'Protected Sub WebChartControl1_CustomDrawSeriesPoint(ByVal sender As Object, ByVal e As DevExpress.XtraCharts.Web.CustomDrawSeriesPointEventArgs) Handles WebChartControl1.CustomDrawSeriesPoint
+    '    Dim point As DevExpress.XtraCharts.SeriesPoint = e.SeriesPoint
+    '    If point IsNot Nothing Then
+    '        Dim rowView As DataRowView = CType(point.Tag, DataRowView)
+    '        Dim s As String = rowView("nome_Livello1").ToString()
+    '        e.LabelText = s
+    '        e.Series.ToolTipPointPattern = "{V}%"
+    '    End If
+    'End Sub
+
 
     Protected Sub ASPxGridView_sintomi_BeforePerformDataSelect(sender As Object, e As EventArgs)
         Session("idOrgEffLivello2") = (TryCast(sender, ASPxGridView)).GetMasterRowKeyValue()

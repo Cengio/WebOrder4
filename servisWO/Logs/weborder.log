@@ -545,3 +545,128 @@
    in System.Web.HttpResponse.End()
    in servisWO.orderReportDownload.DownloadPDF(String orderNo)
 2025-03-07 10:03:52,529 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 12:17:08,275 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 12:17:38,724 INFO servisWO.login - LOGIN: Bond James
+2025-03-07 12:17:38,733 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-07 12:17:38,750 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-07 12:17:38,761 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-07 12:18:26,236 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 12:18:35,384 INFO servisWO.login - LOGIN: Bond James
+2025-03-07 12:18:35,391 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-07 12:18:35,412 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-07 12:18:35,420 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-07 12:21:23,625 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 15:54:51,284 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 15:56:16,055 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 16:01:54,436 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 16:09:04,179 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 16:09:40,572 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 16:10:43,574 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 16:12:06,106 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 16:13:19,063 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 16:16:38,380 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 16:20:47,485 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 16:22:40,204 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 16:25:38,541 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 16:34:28,865 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 16:40:46,599 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 16:43:28,154 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 16:45:12,973 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 16:47:19,588 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 17:12:00,933 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 17:18:35,710 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 17:19:38,780 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 17:23:43,808 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 17:47:47,007 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 17:55:33,292 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 17:56:13,812 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 18:06:50,874 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 18:09:55,780 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 18:11:37,536 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-07 18:14:50,596 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 09:48:42,656 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 09:54:53,020 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 10:06:37,569 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 11:42:00,684 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 12:08:20,780 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 12:08:50,472 INFO servisWO.login - LOGIN: Bond James
+2025-03-10 12:08:50,480 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-10 12:08:50,493 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:08:50,504 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:12:15,837 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 12:12:29,682 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 12:12:34,921 INFO servisWO.login - LOGIN: Bond James
+2025-03-10 12:12:34,927 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-10 12:12:34,939 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:12:34,947 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:18:30,510 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 12:19:06,630 INFO servisWO.login - LOGIN: Bond James
+2025-03-10 12:19:06,638 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-10 12:19:06,658 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:19:06,674 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:19:26,195 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:19:26,205 INFO servisWO.cartManager - Caricato listino BASE per il cliente C29084
+2025-03-10 12:19:26,206 INFO servisWO.customerList - Bond James selected customer: C29084(CT064683)
+2025-03-10 12:19:26,621 INFO servisWO.datamanager - Start synchOrderInvoicedFromNAV. Order to synch: 32
+2025-03-10 12:19:30,398 INFO servisWO._default - Bond James deselected customer: C29084
+2025-03-10 12:19:30,407 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:21:29,884 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 12:21:39,712 INFO servisWO.login - LOGIN: Bond James
+2025-03-10 12:21:39,719 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-10 12:21:39,735 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:21:39,746 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:22:36,838 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 12:22:54,728 INFO servisWO.login - LOGIN: Bond James
+2025-03-10 12:22:54,735 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-10 12:22:54,752 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:22:54,768 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:38:15,644 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 12:38:22,504 INFO servisWO.login - LOGIN: Bond James
+2025-03-10 12:38:22,511 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-10 12:38:22,524 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:38:22,534 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:39:53,189 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 12:40:11,676 INFO servisWO.login - LOGIN: Bond James
+2025-03-10 12:40:11,685 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-10 12:40:11,698 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:40:11,707 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:40:36,278 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 12:40:40,604 INFO servisWO.login - LOGIN: Bond James
+2025-03-10 12:40:40,610 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-10 12:40:40,621 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:40:40,632 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:42:18,384 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 12:42:32,064 INFO servisWO.login - LOGIN: Bond James
+2025-03-10 12:42:32,071 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-10 12:42:32,084 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:42:32,093 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 12:44:59,388 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 14:29:39,311 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 14:30:27,233 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 15:58:56,631 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 15:59:36,169 INFO servisWO.login - LOGIN: Bond James
+2025-03-10 15:59:36,177 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-10 15:59:36,192 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 15:59:36,202 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 16:00:25,355 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 16:40:32,477 INFO servisWO.login - LOGIN: Bond James
+2025-03-10 16:40:32,485 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-10 16:40:32,500 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 16:40:32,512 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 17:38:33,329 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 17:38:37,892 INFO servisWO.login - LOGIN: Bond James
+2025-03-10 17:38:37,899 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-10 17:38:37,912 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 17:38:37,921 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 17:40:35,633 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 17:41:02,347 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 17:45:32,740 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-10 17:45:39,237 INFO servisWO.login - LOGIN: Bond James
+2025-03-10 17:45:39,243 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-10 17:45:39,253 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-10 17:45:39,261 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-12 10:14:30,997 INFO servisWO.Global_asax - Web Order 4.27 STARTED
+2025-03-12 10:14:42,655 INFO servisWO.login - LOGIN: Bond James
+2025-03-12 10:14:42,663 INFO servisWO.login - setWorkingCompany: Ser-Vis Srl
+2025-03-12 10:14:42,675 INFO servisWO.cartManager - Caricato listino BASE per il cliente 
+2025-03-12 10:14:42,685 INFO servisWO.cartManager - Caricato listino BASE per il cliente 

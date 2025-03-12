@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/default.Master" CodeBehind="parametriSito.aspx.vb" Inherits="servisWO.parametriSito" %>
-<%@ Register assembly="DevExpress.Web.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+<%@ Register assembly="DevExpress.Web.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
 
@@ -49,20 +49,20 @@
     <dx:ASPxLabel ID="lb_cTitolo" runat="server" Font-Bold="True" 
     Font-Size="Medium" ForeColor="#FF8800" 
     Text="gestione parametri sito" 
-    Theme="Metropolis">
+    Theme="MetropolisBlue">
     </dx:ASPxLabel>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <dx:ASPxPageControl ID="ASPxPageControl1" runat="server" ActiveTabIndex="5" 
-        EnableTheming="True" Theme="Metropolis" 
+        EnableTheming="True" Theme="MetropolisBlue" 
         Width="100%" ClientInstanceName="tabpagecontrol">
         <TabPages>
             <dx:TabPage Text="Ordini - Notifiche" Name="ordini">
                 <ContentCollection>
                     <dx:ContentControl runat="server" SupportsDisabledAttribute="True">
                         <dx:ASPxFormLayout ID="ASPxFormLayout5" runat="server" EnableTheming="True" 
-                            Theme="Metropolis" Width="100%">
+                            Theme="MetropolisBlue" Width="100%">
                             <Items>
                                 <dx:LayoutGroup Caption="E-mail Sistema" ColCount="3">
                                     <Items>
@@ -311,7 +311,7 @@
             <dx:TabPage Name="parametriordini" Text="Ordini - Evasione">
                 <ContentCollection>
                     <dx:ContentControl runat="server" SupportsDisabledAttribute="True">
-                        <dx:ASPxFormLayout ID="gridMailingOrdini" runat="server" Theme="Metropolis" 
+                        <dx:ASPxFormLayout ID="gridMailingOrdini" runat="server" Theme="MetropolisBlue" 
                             Width="100%">
                             <Items>
                                 <dx:LayoutGroup Caption="Valori di default" ColCount="3">
@@ -364,7 +364,7 @@
                                             <dx:ASPxGridView ID="gridParametriOrdini" runat="server" 
                                                 AutoGenerateColumns="False" DataSourceID="SqlDataSource1" 
                                                 EnableTheming="True" KeyFieldName="Code" 
-                                                Theme="Metropolis">
+                                                Theme="MetropolisBlue">
                                                 <Columns>
                                                     <dx:GridViewCommandColumn Caption=" " ShowInCustomizationForm="True" VisibleIndex="0" ShowEditButton="True"/>
                                                     <dx:GridViewDataTextColumn FieldName="Code" ReadOnly="True" 
@@ -428,7 +428,7 @@
                 <ContentCollection>
                     <dx:ContentControl runat="server" SupportsDisabledAttribute="True">
                         <dx:ASPxFormLayout ID="ASPxFormLayout4" runat="server" EnableTheming="True" 
-                            Theme="Metropolis">
+                            Theme="MetropolisBlue">
                             <Items>
                                 <dx:LayoutItem Caption="Magazzino operativo">
                                     <LayoutItemNestedControlCollection>
@@ -450,7 +450,7 @@
                 <ContentCollection>
                     <dx:ContentControl runat="server" SupportsDisabledAttribute="True">
                         <dx:ASPxFormLayout ID="ASPxFormLayout3" runat="server" EnableTheming="True" 
-                            Theme="Metropolis" Width="100%">
+                            Theme="MetropolisBlue" Width="100%">
                             <Items>
                                 <dx:LayoutItem Caption="Progressivo ordini web">
                                     <LayoutItemNestedControlCollection>
@@ -491,7 +491,7 @@
                 <ContentCollection>
                     <dx:ContentControl runat="server" SupportsDisabledAttribute="True">
                         <dx:ASPxFormLayout ID="ASPxFormLayout2" runat="server" EnableTheming="True" 
-                            Theme="Metropolis" Width="100%">
+                            Theme="MetropolisBlue" Width="100%">
                             <Items>
                                 <dx:LayoutItem Caption="Fascia di utilizzo">
                                     <LayoutItemNestedControlCollection>
@@ -549,7 +549,7 @@
             <dx:TabPage Name="scontipagamento" Text="Ordini - Sconti pagamento">
                      <ContentCollection>
                             <dx:ContentControl runat="server" SupportsDisabledAttribute="True">
-                                     <dx:ASPxFormLayout ID="formLayoutScontiPagamento" runat="server" Theme="Metropolis"  Width="100%">
+                                     <dx:ASPxFormLayout ID="formLayoutScontiPagamento" runat="server" Theme="MetropolisBlue"  Width="100%">
                                             <Items>
                                                 <dx:LayoutItem Caption="" CaptionSettings-HorizontalAlign="Left" CaptionSettings-VerticalAlign="Top">
                                                     <LayoutItemNestedControlCollection>
@@ -557,7 +557,7 @@
                                                             <dx:ASPxGridView ID="gridScontiPagamento" runat="server"
                                                                 AutoGenerateColumns="False" DataSourceID="SqlDataSourceScontiPagamento"
                                                                 EnableTheming="True" KeyFieldName="CustomerNo;PaymentMethodCode;PaymentTermsCode"
-                                                                Theme="Metropolis">
+                                                                Theme="MetropolisBlue">
                                                                 <Settings ShowFilterRow="True" />
                                                                 <SettingsDataSecurity AllowDelete="False" AllowInsert="False" />
                                                                 <Columns>
@@ -619,7 +619,7 @@
             <td align="right" style="text-align: right; width: 95%;">
                                     &nbsp;</td>
             <td style="text-align: right; width: 5%;">
-                <dx:ASPxButton runat="server" Text="Salva Parametri" ID="btn_Salva" Theme="Metropolis" ClientInstanceName="btnSalvaParametri"
+                <dx:ASPxButton runat="server" Text="Salva Parametri" ID="btn_Salva" Theme="MetropolisBlue" ClientInstanceName="btnSalvaParametri"
                                     Width="180px" AutoPostBack="False">
                     <ClientSideEvents Click="function(s, e) {if(ASPxClientEdit.ValidateEditorsInContainer(null)) callbacksave.PerformCallback();}" />
                 </dx:ASPxButton>
@@ -632,7 +632,7 @@
         PopupVerticalAlign="WindowCenter" CloseAction="CloseButton" Modal="True" 
          AllowDragging="True" AppearAfter="500" AutoUpdatePosition="True" 
         ClientInstanceName="popupesito"  
-        Theme="Metropolis" HeaderText="Esito operazione" Width="360px">
+        Theme="MetropolisBlue" HeaderText="Esito operazione" Width="360px">
         <ContentStyle Font-Size="Medium">
         </ContentStyle>
         <ContentCollection>
@@ -652,7 +652,7 @@
 
     <dx:ASPxLoadingPanel ID="ASPxLoadingPanel1" runat="server" 
         ClientInstanceName="ASPxLoadingPanel1" Modal="True" 
-        Text="Salvataggio parametri&amp;hellip;" Theme="Metropolis">
+        Text="Salvataggio parametri&amp;hellip;" Theme="MetropolisBlue">
     </dx:ASPxLoadingPanel>
 
 </asp:Content>

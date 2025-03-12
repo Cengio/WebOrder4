@@ -5,7 +5,7 @@
     <dx:ASPxLabel ID="lb_cTitolo" runat="server" Font-Bold="True" 
     Font-Size="Medium" ForeColor="#FF8800" 
     Text="accessi utenti" 
-    Theme="Metropolis">
+    Theme="MetropolisBlue">
 </dx:ASPxLabel>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -14,7 +14,7 @@
         <dx:SplitterPane ScrollBars="Auto">
             <ContentCollection>
                 <dx:SplitterContentControl runat="server">
-                    <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" EnableTheming="True" KeyFieldName="id" Theme="Metropolis" Width="100%">
+                    <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" EnableTheming="True" KeyFieldName="id" Theme="MetropolisBlue" Width="100%">
                         <SettingsPager PageSize="50" Position="TopAndBottom" ShowSeparators="True">
                         </SettingsPager>
                         <Settings ShowFilterRow="True" ShowGroupPanel="True" ShowFilterRowMenu="True" ShowHeaderFilterButton="True" />

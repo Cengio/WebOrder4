@@ -1,6 +1,6 @@
 ﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="default.master.vb" Inherits="servisWO._default" %>
 
-<%@ Register assembly="DevExpress.Web.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+<<%@ Register assembly="DevExpress.Web.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
 
 <%@ Register Src="TimeoutControl.ascx" TagName="TimeoutControl" TagPrefix="TOC1" %>
 

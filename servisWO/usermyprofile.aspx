@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/default.Master" CodeBehind="usermyprofile.aspx.vb" Inherits="servisWO.usermyprofile" %>
 
-<%@ Register assembly="DevExpress.Web.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+<%@ Register assembly="DevExpress.Web.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -47,12 +47,12 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <dx:ASPxCallbackPanel ID="ASPxCallbackPanel_save" runat="server" 
-        ClientInstanceName="callbackpanelsave" Theme="Metropolis" Width="100%">
+        ClientInstanceName="callbackpanelsave" Theme="MetropolisBlue" Width="100%">
         <ClientSideEvents EndCallback="saveCallbackComplete" />
         <PanelCollection>
             <dx:PanelContent runat="server" SupportsDisabledAttribute="True">
                 <dx:ASPxFormLayout ID="ASPxFormLayout_webuser" runat="server" ColCount="3" 
-        EnableTheming="True" Theme="Metropolis" Width="100%">
+        EnableTheming="True" Theme="MetropolisBlue" Width="100%">
                     <Items>
                         <dx:LayoutItem Caption="User ID">
                             <LayoutItemNestedControlCollection>
@@ -174,7 +174,7 @@
                             &nbsp;</td>
                         <td style="text-align: right; width: 5%;">
                             <dx:ASPxButton ID="btn_Salva" runat="server" AutoPostBack="False" 
-                                Enabled="False" Text="Salva" Theme="Metropolis" Width="180px">
+                                Enabled="False" Text="Salva" Theme="MetropolisBlue" Width="180px">
                                 <ClientSideEvents Click="function(s, e) {if(ASPxClientEdit.ValidateEditorsInContainer(null)) callbackpanelsave.PerformCallback();}" />
                             </dx:ASPxButton>
                         </td>

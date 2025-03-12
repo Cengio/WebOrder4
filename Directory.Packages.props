@@ -1,0 +1,87 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+    <NoWarn>$(NoWarn);NU1507</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="DevExpress.Charts" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Charts.Core" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Charts.Core.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Charts.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.CodeParser" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.CodeParser.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Data" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Data.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Data.Desktop" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.DataAccess" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.DataAccess.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.DataAccess.UI" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.DataVisualization.Core" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.DataVisualization.Core.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Diagram.Core" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Drawing" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Drawing.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Gauges.Core" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Gauges.Core.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Images" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Office.Core" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Office.Core.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Pdf.Core" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Pdf.Core.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Pdf.Drawing" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Pdf.Drawing.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.PivotGrid.Core" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.PivotGrid.Core.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Printing.Core" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Printing.Core.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Reporting.Core" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Reporting.Core.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.RichEdit.Core" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.RichEdit.Core.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.RichEdit.Export" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.RichEdit.Export.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Sparkline.Core" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Sparkline.Core.de" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.SpellChecker.Core" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Utils" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Utils.UI" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Web" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Web.Reporting" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Web.Reporting.Common" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Web.Resources" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Web.Visualization" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Win" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Win.Charts" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Win.Diagram" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Win.Grid" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Win.Navigation" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Win.PivotGrid" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Win.Printing" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Win.RichEdit" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Win.TreeList" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Win.VerticalGrid" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Xpo" Version="24.2.5" />
+    <PackageVersion Include="DevExpress.Xpo.de" Version="24.2.5" />
+    <PackageVersion Include="log4net" Version="3.0.4" />
+    <PackageVersion Include="Microsoft.AspNet.WebApi.Client" Version="6.0.0" />
+    <PackageVersion Include="Microsoft.AspNet.WebApi.Core" Version="5.3.0" />
+    <PackageVersion Include="Microsoft.AspNet.WebApi.WebHost" Version="5.3.0" />
+    <PackageVersion Include="Microsoft.Bcl" Version="1.1.10" />
+    <PackageVersion Include="Microsoft.Bcl.AsyncInterfaces" Version="9.0.2" />
+    <PackageVersion Include="Microsoft.Bcl.Build" Version="1.0.21" />
+    <PackageVersion Include="Microsoft.Net.Http" Version="2.2.29" />
+    <PackageVersion Include="Microsoft.Web.Infrastructure" Version="2.0.1" />
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageVersion Include="Newtonsoft.Json.Bson" Version="1.0.3" />
+    <PackageVersion Include="System.Buffers" Version="4.6.0" />
+    <PackageVersion Include="System.IO.Pipelines" Version="9.0.2" />
+    <PackageVersion Include="System.Memory" Version="4.6.0" />
+    <PackageVersion Include="System.Numerics.Vectors" Version="4.6.0" />
+    <PackageVersion Include="System.Runtime.CompilerServices.Unsafe" Version="6.1.0" />
+    <PackageVersion Include="System.Text.Encodings.Web" Version="9.0.2" />
+    <PackageVersion Include="System.Text.Json" Version="9.0.2" />
+    <PackageVersion Include="System.Threading.Tasks.Extensions" Version="4.6.0" />
+    <PackageVersion Include="System.ValueTuple" Version="4.5.0" />
+  </ItemGroup>
+</Project>

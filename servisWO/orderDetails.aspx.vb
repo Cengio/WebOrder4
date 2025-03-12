@@ -1327,19 +1327,19 @@ Public Class orderDetails
         Dim dm As New datamanager
         Dim percorsoPDF As String = dm.GetParametroSito(parametriSitoValue.percorsoPDF)
         If percorsoPDF <> "" AndAlso Directory.Exists(Server.MapPath("~/" & percorsoPDF)) Then
-            If Not UseTelerik Then
-                Dim Report As New repOrdine
-                Report.DataSource = GetData(orderNo)
-                Report.Name = CType(HttpContext.Current.Session("wkcManager"), workingCompanyManager).prefixOrderFileName & "ORD" & orderNo
-                Try
-                    Report.ExportToPdf(MapPath("~/" & percorsoPDF & "/" & Report.Name & ".pdf"))
-                    Log.Info("Order PDF was created in " & MapPath("~/" & percorsoPDF & "/" & Report.Name & ".pdf"))
-                Catch ex As Exception
-                    Log.Error(ex.ToString)
-                    Exit Sub
-                End Try
-            Else
-                Dim reportProcessor As New Telerik.Reporting.Processing.ReportProcessor()
+            'If Not UseTelerik Then
+            '    Dim Report As New repOrdine
+            '    Report.DataSource = GetData(orderNo)
+            '    Report.Name = CType(HttpContext.Current.Session("wkcManager"), workingCompanyManager).prefixOrderFileName & "ORD" & orderNo
+            '    Try
+            '        Report.ExportToPdf(MapPath("~/" & percorsoPDF & "/" & Report.Name & ".pdf"))
+            '        Log.Info("Order PDF was created in " & MapPath("~/" & percorsoPDF & "/" & Report.Name & ".pdf"))
+            '    Catch ex As Exception
+            '        Log.Error(ex.ToString)
+            '        Exit Sub
+            '    End Try
+            'Else
+            Dim reportProcessor As New Telerik.Reporting.Processing.ReportProcessor()
                 Dim deviceInfo As New System.Collections.Hashtable()
                 Dim rptSource As New Telerik.Reporting.TypeReportSource()
                 rptSource.TypeName = GetType(servisWO.Report1).AssemblyQualifiedName
@@ -1378,8 +1378,8 @@ Public Class orderDetails
                     Exit Sub
                 End Try
 
-            End If
-        Else
+                'End If
+                Else
             'percorso PDF non impostato
             Log.Error("PDF save path Not set")
         End If
@@ -1388,17 +1388,17 @@ Public Class orderDetails
 
     Private Function createOrderReportForEmail(ByVal orderNo As String, Optional ByVal UseTelerik As Boolean = True) As Attachment
         Try
-            If Not UseTelerik Then
-                Dim Report As New repOrdine
-                Report.DataSource = GetData(orderNo)
-                Report.Name = CType(HttpContext.Current.Session("wkcManager"), workingCompanyManager).prefixOrderFileName & "ORD" & orderNo
-                Dim Mem As New MemoryStream()
-                Report.ExportToPdf(Mem)
-                Mem.Seek(0, System.IO.SeekOrigin.Begin)
-                Dim Att = New Attachment(Mem, Report.Name & ".pdf", "application/pdf")
-                Return Att
-            Else
-                Dim dm As New datamanager
+            'If Not UseTelerik Then
+            '    Dim Report As New repOrdine
+            '    Report.DataSource = GetData(orderNo)
+            '    Report.Name = CType(HttpContext.Current.Session("wkcManager"), workingCompanyManager).prefixOrderFileName & "ORD" & orderNo
+            '    Dim Mem As New MemoryStream()
+            '    Report.ExportToPdf(Mem)
+            '    Mem.Seek(0, System.IO.SeekOrigin.Begin)
+            '    Dim Att = New Attachment(Mem, Report.Name & ".pdf", "application/pdf")
+            '    Return Att
+            'Else
+            Dim dm As New datamanager
                 Dim reportProcessor As New Telerik.Reporting.Processing.ReportProcessor()
                 Dim deviceInfo As New System.Collections.Hashtable()
                 Dim rptSource As New Telerik.Reporting.TypeReportSource()
@@ -1436,7 +1436,7 @@ Public Class orderDetails
                 Return Att
 
 
-            End If
+            'End If
         Catch ex As Exception
             Log.Error(ex.ToString)
             Return Nothing

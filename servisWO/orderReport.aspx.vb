@@ -16,16 +16,16 @@ Public Class orderReport
     End Sub
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Not Session("orderCodeReport") Is Nothing AndAlso Session("orderCodeReport") <> "" Then
-            ReportViewer1.Report = GetReport()
+            'ReportViewer1.Report = GetReport()
         End If
     End Sub
 
-    Private Function GetReport() As repOrdine
-        Dim newreport As New repOrdine
-        newreport.DataSource = GetData()
-        newreport.Name = "ORD" & Session("orderCodeReport")
-        Return newreport
-    End Function
+    'Private Function GetReport() As repOrdine
+    '    Dim newreport As New repOrdine
+    '    newreport.DataSource = GetData()
+    '    newreport.Name = "ORD" & Session("orderCodeReport")
+    '    Return newreport
+    'End Function
 
     Private Function GetData() As orderHeaderReportCollection
         Dim dm As New DataManager
@@ -46,9 +46,9 @@ Public Class orderReport
         Return rep
     End Function
 
-    Protected Sub ReportViewer1_Unload(sender As Object, e As EventArgs) Handles ReportViewer1.Unload
-        ReportViewer1.Report = Nothing
-    End Sub
+    'Protected Sub ReportViewer1_Unload(sender As Object, e As EventArgs) Handles ReportViewer1.Unload
+    '    ReportViewer1.Report = Nothing
+    'End Sub
 
 
 End Class
